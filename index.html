@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculateur Vent - CR3 Virtuel</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* --- Logo --- */
+    .logo {
+      position: fixed;
+      top: 15px;
+      left: 20px;
+      width: 80px;
+      height: auto;
+      z-index: 10;
+      opacity: 0.9;
+      transition: transform 0.2s ease;
+    }
+    .logo:hover {
+      transform: scale(1.05);
+      opacity: 1;
+    }
+
+    /* --- Fond et disposition générale --- */
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('carte-aero.jpg') center/cover no-repeat;
+      filter: blur(6px) brightness(0.6);
+      z-index: -1;
+    }
+
+    /* --- Bande du haut (inputs) --- */
+    .top-bar {
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 10px 0 42px 0; /* ← espace ajouté pour ligne TAF */
+      display: flex;
+      flex-wrap: wrap;        /* ← permet la 2e ligne */
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 5;
+    }
+
+    .top-bar label {
+      font-size: 14px;
+    }
+
+    .top-bar input, .top-bar select {
+      width: 90px;
+      text-align: center;
+      font-family: 'Orbitron', sans-serif;
+      border-radius: 5px;
+      border: none;
+      padding: 5px;
+    }
+
+    .top-bar button {
+      padding: 6px 12px;
+      background-color: #007bff;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .top-bar button:hover {
+      background-color: #0056b3;
+    }
+
+    /* --- Contenu principal --- */
+    .main-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      padding-left: 5%;
+      box-sizing: border-box;
+      margin-top: 100px; /* ← ajusté pour 2 lignes */
+    }
+
+    .left-panel {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* --- Partie droite : vue 3D / horizon simulé --- */
+    .right-panel {
+      width: 55%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    #view3d {
+      background: linear-gradient(to top, #3a3a3a 45%, #87ceeb 100%);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      width: 540px;
+      height: 420px;
+    }
+
+    .caption {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #aee3ff;
+      text-shadow: 0 0 5px #000;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 22px;
+      color: #ffffff;
+      text-shadow: 0 0 8px #004466;
+    }
+
+    canvas {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .results {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Logo -->
+  <img src="cftc_logo.png" alt="Logo CFTC" class="logo">
+
+  <!-- Fond -->
+  <div class="background"></div>
+
+  <!-- Bande du haut (2 lignes avec TAF) -->
+<div class="top-bar">
+
+    <!-- ====== ligne originale (inchangée !) ====== -->
+    <label>Vent vrai :</label>
+    <input id="windDir" type="number" min="0" max="360" placeholder="°">
+
+    <label>Vitesse :</label>
+    <input id="windSpeed" type="number" min="0" placeholder="kt">
+
+    <label>Rafales :</label>
+    <input id="gust" type="number" min="0" placeholder="kt">
+
+    <label>Déclinaison :</label>
+    <input id="declination" type="number" step="0.1" placeholder="°">
+    <select id="eastWest">
+      <option value="W">W</option>
+      <option value="E">E</option>
+    </select>
+
+    <label>Piste :</label>
+    <input id="runway" type="number" min="0" max="360" placeholder="°">
+
+    <label for="icaoAuto">Code OACI :</label>
+    <input id="icaoAuto" type="text" placeholder="CYUL" style="width:80px;text-transform:uppercase;">
+
+    <label for="aircraftSelect">Avion :</label>
+    <select id="aircraftSelect">
+      <option value="avion.png" selected>Boeing 737</option>
+      <option value="pc12.png">Pilatus PC-12</option>
+      <option value="dhc8.png">DHC-8</option>
+    </select>
+
+    <button id="calculateBtn">Calculer</button>
+
+    <!-- ======= NOUVELLE LIGNE TAF *DANS LA TOP BAR* ======= -->
+<div id="tafLine"
+     style="width:100%; display:flex; justify-content:flex-end; gap:10px; margin-top:5px; align-items:center;">
+
+    <label>TAF Day :</label>
+    <input id="tafDay" type="number" min="1" max="31" placeholder="JJ"
+           style="width:55px;text-align:center;">
+
+    <label>TAF Hour :</label>
+    <input id="tafHour" type="text" maxlength="4" placeholder="HHMM"
+           style="width:70px;text-align:center;">
+
+    <button id="loadTafBtn"
+        style="background:#ffca28;color:#000;font-weight:600;border-radius:6px;">
+        Load TAF
+    </button>
+
+    <span id="tafStatus" style="color:#ffd54f;font-size:13px;"></span>
+
+</div>
+
+
+</div> <!-- fermeture de .top-bar -->
+
+  <!-- Contenu principal -->
+  <div class="main-container">
+    <div class="left-panel">
+      <h1>Calculateur de vent - CR3 GP Virtuel</h1>
+
+      <canvas id="roulette" width="600" height="600"></canvas>
+
+      <div class="results">
+        <div>Vent magnétique : <span id="windMagText">—</span></div>
+        <div>Vent de face : <span id="headwind">—</span></div>
+        <div>Vent de travers : <span id="crosswind">—</span></div>
+      </div>
+    </div>
+
+    <div class="right-panel">
+      <canvas id="view3d" width="540" height="420"></canvas>
+      <div class="caption">Vue seuil de piste — direction du vent</div>
+
+      <div id="airportBox" style="
+        background:rgba(0,0,0,0.5);
+        border:1px solid rgba(255,255,255,0.2);
+        border-radius:10px;
+        padding:12px;
+        margin-top:15px;
+        width:80%;
+        color:#fff;
+        font-size:13px;
+        text-align:center;">
+        <h3 style="font-size:16px;margin-bottom:8px;">Informations aéroport</h3>
+        <div id="airportResult" style="margin-top:10px;text-align:left;font-size:12px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Alerte Crosswind -->
+  <div id="crosswindAlert" style="
+    display:none;
+    position:fixed;
+    top:20px;left:50%;transform:translateX(-50%);
+    background:rgba(255,0,0,0.9);
+    color:white;font-size:28px;font-weight:700;
+    padding:15px 30px;border:3px solid white;border-radius:12px;
+    z-index:1000;animation:flash 1s infinite;">
+    ⚠️ CROSSWIND EXCEEDS LIMITS ⚠️
+  </div>
+
+  <style>
+    @keyframes flash {
+      0%,100%{opacity:1;}50%{opacity:0.3;}
+    }
+  </style>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

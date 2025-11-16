@@ -1,0 +1,6479 @@
+{
+  "CYAD": {
+    "airport": "La Grande-3 Airport",
+    "province": "QC",
+    "declinaison": "17°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 104,
+        "heading2": 284,
+        "length_ft": 5009,
+        "width_ft": 150,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYAH": {
+    "airport": "La Grande-4 Airport",
+    "province": "QC",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 91,
+        "heading2": 271,
+        "length_ft": 5009,
+        "width_ft": 150,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYAS": {
+    "airport": "Kangirsuk Airport",
+    "province": "QC",
+    "declinaison": "22°W",
+    "runways": [
+      {
+        "id": "03/21",
+        "heading1": 32,
+        "heading2": 212,
+        "length_ft": 3521,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYBC": {
+    "airport": "Baie-Comeau Airport",
+    "province": "QC",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 98,
+        "heading2": 278,
+        "length_ft": 6000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYBG": {
+    "airport": "CFB Bagotville / Saguenay-Bagotville Airport",
+    "province": "QC",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": 109,
+        "heading2": 289,
+        "length_ft": 10000,
+        "width_ft": 150,
+        "surface": "ASPH/CONC"
+      },
+      {
+        "id": "18/36",
+        "heading1": 181,
+        "heading2": 1,
+        "length_ft": 6029,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYBX": {
+    "airport": "Lourdes-de-Blanc-Sablon Airport",
+    "province": "QC",
+    "declinaison": "19°W",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": 46,
+        "heading2": 226,
+        "length_ft": 4500,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYDO": {
+    "airport": "Dolbeau-Saint-Felicien Airport",
+    "province": "QC",
+    "declinaison": "16°W",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": 110,
+        "heading2": 290,
+        "length_ft": 5001,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYEY": {
+    "airport": "Amos/Magny Airport",
+    "province": "QC",
+    "declinaison": "13°W",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": 141,
+        "heading2": 321,
+        "length_ft": 4992,
+        "width_ft": 100,
+        "surface": "ASPHALT"
+      }
+    ]
+  },
+  "CYFE": {
+    "airport": "Forestville Airport",
+    "province": "QC",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": null,
+        "heading2": null,
+        "length_ft": 3937,
+        "width_ft": 148,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYFJ": {
+    "airport": "Mont-Tremblant International Airport",
+    "province": "QC",
+    "declinaison": "14°W",
+    "runways": [
+      {
+        "id": "02/20",
+        "heading1": 25,
+        "heading2": 205,
+        "length_ft": 5902,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYGL": {
+    "airport": "La Grande Rivière Airport",
+    "province": "QC",
+    "declinaison": "16°W",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 129,
+        "heading2": 309,
+        "length_ft": 6487,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYGP": {
+    "airport": "Michel-Pouliot Gaspé Airport",
+    "province": "QC",
+    "declinaison": "19°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 103,
+        "heading2": 283,
+        "length_ft": 5488,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYGR": {
+    "airport": "Îles-de-la-Madeleine Airport",
+    "province": "QC",
+    "declinaison": "19°W",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": 72,
+        "heading2": 252,
+        "length_ft": 4493,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "16/34",
+        "heading1": 155,
+        "heading2": 335,
+        "length_ft": 3608,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYGV": {
+    "airport": "Havre-Saint-Pierre Airport",
+    "province": "QC",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 81,
+        "heading2": 261,
+        "length_ft": 4498,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYGW": {
+    "airport": "Kuujjuarapik Airport",
+    "province": "QC",
+    "declinaison": "15°W",
+    "runways": [
+      {
+        "id": "03/21",
+        "heading1": 33,
+        "heading2": 213,
+        "length_ft": 5082,
+        "width_ft": 150,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYHA": {
+    "airport": "Quaqtaq Airport",
+    "province": "QC",
+    "declinaison": "24°W",
+    "runways": [
+      {
+        "id": "18/36",
+        "heading1": 179,
+        "heading2": 359,
+        "length_ft": 3520,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYHH": {
+    "airport": "Nemiscau Airport",
+    "province": "QC",
+    "declinaison": "16°W",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 90,
+        "heading2": 270,
+        "length_ft": 5000,
+        "width_ft": 150,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYHR": {
+    "airport": "Chevery Airport",
+    "province": "QC",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": 73,
+        "heading2": 253,
+        "length_ft": 4500,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYHU": {
+    "airport": "Montréal / Saint-Hubert Metropolitan Airport",
+    "province": "QC",
+    "declinaison": "15°W",
+    "runways": [
+      {
+        "id": "06L/24R",
+        "heading1": 62,
+        "heading2": 242,
+        "length_ft": 7801,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "06R/24L",
+        "heading1": 62,
+        "heading2": 242,
+        "length_ft": 3922,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "10/28",
+        "heading1": 100,
+        "heading2": 280,
+        "length_ft": 2420,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYIF": {
+    "airport": "St Augustin Airport",
+    "province": "QC",
+    "declinaison": "19°W",
+    "runways": [
+      {
+        "id": "01/19",
+        "heading1": 10,
+        "heading2": 190,
+        "length_ft": 4595,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYIK": {
+    "airport": "Ivujivik Airport",
+    "province": "QC",
+    "declinaison": "20°W",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": 69,
+        "heading2": 249,
+        "length_ft": 3521,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYJN": {
+    "airport": "St Jean Airport",
+    "province": "QC",
+    "declinaison": "15°W",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": 105,
+        "heading2": 285,
+        "length_ft": 4012,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "02/20",
+        "heading1": 15,
+        "heading2": 195,
+        "length_ft": 2438,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "06/24",
+        "heading1": 60,
+        "heading2": 240,
+        "length_ft": 2349,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYKG": {
+    "airport": "Kangiqsujuaq (Wakeham Bay) Airport",
+    "province": "QC",
+    "declinaison": "22°W",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": 143,
+        "heading2": 323,
+        "length_ft": 3520,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYKL": {
+    "airport": "Schefferville Airport",
+    "province": "QC",
+    "declinaison": "20°W",
+    "runways": [
+      {
+        "id": "17/35",
+        "heading1": 169,
+        "heading2": 349,
+        "length_ft": 5002,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYKO": {
+    "airport": "Akulivik Airport",
+    "province": "QC",
+    "declinaison": "19°W",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 79,
+        "heading2": 259,
+        "length_ft": 3521,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYKQ": {
+    "airport": "Waskaganish Airport",
+    "province": "QC",
+    "declinaison": "14°W",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 62,
+        "heading2": 242,
+        "length_ft": 3511,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYLA": {
+    "airport": "Aupaluk Airport",
+    "province": "QC",
+    "declinaison": "22°W",
+    "runways": [
+      {
+        "id": "04/22",
+        "heading1": 37,
+        "heading2": 217,
+        "length_ft": 3521,
+        "width_ft": 100,
+        "surface": "GRAVEL"
+      }
+    ]
+  },
+  "CYLQ": {
+    "airport": "La Tuque Airport",
+    "province": "QC",
+    "declinaison": "15°W",
+    "runways": [
+      {
+        "id": "01/19",
+        "heading1": 11,
+        "heading2": 191,
+        "length_ft": 5000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYLU": {
+    "airport": "Kangiqsualujjuaq (Georges River) Airport",
+    "province": "QC",
+    "declinaison": "23°W",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": 156,
+        "heading2": 336,
+        "length_ft": 3521,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYME": {
+    "airport": "Matane Airport",
+    "province": "QC",
+    "declinaison": "19°W",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 90,
+        "heading2": 270,
+        "length_ft": 5500,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYML": {
+    "airport": "Charlevoix Airport",
+    "province": "QC",
+    "declinaison": "16°W",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": 143,
+        "heading2": 323,
+        "length_ft": 4501,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYMT": {
+    "airport": "Chibougamau / Chapais Airport",
+    "province": "QC",
+    "declinaison": "16°W",
+    "runways": [
+      {
+        "id": "04/22",
+        "heading1": 44,
+        "heading2": 224,
+        "length_ft": 6495,
+        "width_ft": 148,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYMU": {
+    "airport": "Umiujaq Airport",
+    "province": "QC",
+    "declinaison": "16°W",
+    "runways": [
+      {
+        "id": "02/20",
+        "heading1": 23,
+        "heading2": 203,
+        "length_ft": 3521,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYMW": {
+    "airport": "Maniwaki Airport",
+    "province": "QC",
+    "declinaison": "14°W",
+    "runways": [
+      {
+        "id": "03/21",
+        "heading1": 30,
+        "heading2": 210,
+        "length_ft": 4921,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYMX": {
+    "airport": "Montreal International (Mirabel) Airport",
+    "province": "QC",
+    "declinaison": "15°W",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 60,
+        "heading2": 240,
+        "length_ft": 12000,
+        "width_ft": 200,
+        "surface": "CONC"
+      },
+      {
+        "id": "11/29",
+        "heading1": 113,
+        "heading2": 293,
+        "length_ft": 12000,
+        "width_ft": 200,
+        "surface": "CONC"
+      }
+    ]
+  },
+  "CYNA": {
+    "airport": "Natashquan Airport",
+    "province": "QC",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": 136,
+        "heading2": 316,
+        "length_ft": 4495,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYNC": {
+    "airport": "Wemindji Airport",
+    "province": "QC",
+    "declinaison": "15°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 95,
+        "heading2": 275,
+        "length_ft": 3511,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYND": {
+    "airport": "Ottawa / Gatineau Airport",
+    "province": "QC",
+    "declinaison": "14°W",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 89,
+        "heading2": 269,
+        "length_ft": 6000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYNM": {
+    "airport": "Matagami Airport",
+    "province": "QC",
+    "declinaison": "14°W",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": 148,
+        "heading2": 328,
+        "length_ft": 5001,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYPH": {
+    "airport": "Inukjuak Airport",
+    "province": "QC",
+    "declinaison": "17°W",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 64,
+        "heading2": 244,
+        "length_ft": 3520,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYPN": {
+    "airport": "Port-Menier Airport",
+    "province": "QC",
+    "declinaison": "20°W",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": 111,
+        "heading2": 291,
+        "length_ft": 4888,
+        "width_ft": 148,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYPP": {
+    "airport": "Parent Airport",
+    "province": "QC",
+    "declinaison": "14°W",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": null,
+        "heading2": null,
+        "length_ft": 2975,
+        "width_ft": 75,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYPX": {
+    "airport": "Puvirnituq Airport",
+    "province": "QC",
+    "declinaison": "19°W",
+    "runways": [
+      {
+        "id": "01/19",
+        "heading1": 6,
+        "heading2": 186,
+        "length_ft": 6299,
+        "width_ft": 148,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYQB": {
+    "airport": "Quebec Jean Lesage International Airport",
+    "province": "QC",
+    "declinaison": "16°W",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 61,
+        "heading2": 241,
+        "length_ft": 9000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "11/29",
+        "heading1": 114,
+        "heading2": 294,
+        "length_ft": 5700,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYRC": {
+    "airport": "Chicoutimi/Saint-Honoré Aerodrome",
+    "province": "QC",
+    "declinaison": "17°W",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 122,
+        "heading2": 302,
+        "length_ft": 6085,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "06/24",
+        "heading1": 62,
+        "heading2": 242,
+        "length_ft": 3735,
+        "width_ft": 148,
+        "surface": "ASPH"
+      },
+      {
+        "id": "18/36",
+        "heading1": 182,
+        "heading2": 2,
+        "length_ft": 3597,
+        "width_ft": 148,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYRI": {
+    "airport": "Rivière-du-Loup Airport",
+    "province": "QC",
+    "declinaison": "17°W",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": 49,
+        "heading2": 229,
+        "length_ft": 6001,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYRJ": {
+    "airport": "Roberval Airport",
+    "province": "QC",
+    "declinaison": "17°W",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": 160,
+        "heading2": 340,
+        "length_ft": 5000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYRQ": {
+    "airport": "Trois-Rivières Airport",
+    "province": "QC",
+    "declinaison": "16°W",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": 47,
+        "heading2": 227,
+        "length_ft": 9006,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYSC": {
+    "airport": "Sherbrooke Airport",
+    "province": "QC",
+    "declinaison": "16°W",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 134,
+        "heading2": 314,
+        "length_ft": 5901,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYSG": {
+    "airport": "Saint-Georges Airport",
+    "province": "QC",
+    "declinaison": "16°W",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 62,
+        "heading2": 242,
+        "length_ft": 5112,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYSZ": {
+    "airport": "Sainte-Anne-des-Monts Aerodrome",
+    "province": "QC",
+    "declinaison": "19°W",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": 141,
+        "heading2": 321,
+        "length_ft": 3934,
+        "width_ft": 98,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYTF": {
+    "airport": "Alma Airport",
+    "province": "QC",
+    "declinaison": "17°W",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 131,
+        "heading2": 311,
+        "length_ft": 5000,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYTQ": {
+    "airport": "Tasiujaq Airport",
+    "province": "QC",
+    "declinaison": "22°W",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": 53,
+        "heading2": 233,
+        "length_ft": 3519,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYUL": {
+    "airport": "Montreal / Pierre Elliott Trudeau International Airport",
+    "province": "QC",
+    "declinaison": "15°W",
+    "runways": [
+      {
+        "id": "06R/24L",
+        "heading1": 57,
+        "heading2": 237,
+        "length_ft": 9890,
+        "width_ft": 200,
+        "surface": "CONC"
+      },
+      {
+        "id": "06L/24R",
+        "heading1": 57,
+        "heading2": 237,
+        "length_ft": 11000,
+        "width_ft": 200,
+        "surface": "CONC"
+      }
+    ]
+  },
+  "CYUY": {
+    "airport": "Rouyn Noranda Airport",
+    "province": "QC",
+    "declinaison": "13°W",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 77,
+        "heading2": 257,
+        "length_ft": 7500,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYVB": {
+    "airport": "Bonaventure Airport",
+    "province": "QC",
+    "declinaison": "17°W",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 132,
+        "heading2": 312,
+        "length_ft": 5983,
+        "width_ft": 148,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYVO": {
+    "airport": "Val-d'Or Airport",
+    "province": "QC",
+    "declinaison": "13°W",
+    "runways": [
+      {
+        "id": "18/36",
+        "heading1": 182,
+        "heading2": 2,
+        "length_ft": 10000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYVP": {
+    "airport": "Kuujjuaq Airport",
+    "province": "QC",
+    "declinaison": "22°W",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": 64,
+        "heading2": 244,
+        "length_ft": 6000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "13/31",
+        "heading1": 124,
+        "heading2": 304,
+        "length_ft": 5001,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYXK": {
+    "airport": "Rimouski Airport",
+    "province": "QC",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": 66,
+        "heading2": 246,
+        "length_ft": 4600,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYYY": {
+    "airport": "Mont Joli Airport",
+    "province": "QC",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 57,
+        "heading2": 237,
+        "length_ft": 6000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "15/33",
+        "heading1": 150,
+        "heading2": 330,
+        "length_ft": 3954,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYZG": {
+    "airport": "Salluit Airport",
+    "province": "QC",
+    "declinaison": "20°W",
+    "runways": [
+      {
+        "id": "03/21",
+        "heading1": 27,
+        "heading2": 207,
+        "length_ft": 3523,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYZV": {
+    "airport": "Sept-Îles Airport",
+    "province": "QC",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 86,
+        "heading2": 266,
+        "length_ft": 6523,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "13/31",
+        "heading1": 127,
+        "heading2": 307,
+        "length_ft": 5771,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZBM": {
+    "airport": "Bromont (Roland Désourdy) Airport",
+    "province": "QC",
+    "declinaison": "15°W",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": 53,
+        "heading2": 233,
+        "length_ft": 5004,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZEM": {
+    "airport": "Eastmain River Airport",
+    "province": "QC",
+    "declinaison": "15°W",
+    "runways": [
+      {
+        "id": "02/20",
+        "heading1": 19,
+        "heading2": 199,
+        "length_ft": 3512,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+ "CYAC": {
+    "airport": "Cat Lake Airport",
+    "province": "ON",
+    "declinaison": "1°W",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": 108,
+        "heading2": 288,
+        "length_ft": 3963,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYAG": {
+    "airport": "Fort Frances Municipal Airport",
+    "province": "ON",
+    "declinaison": "1°E",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 125,
+        "heading2": 305,
+        "length_ft": 4493,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYAM": {
+    "airport": "Sault Ste Marie Airport",
+    "province": "ON",
+    "declinaison": "7°W",
+    "runways": [
+      {
+        "id": "4/22",
+        "heading1": 40,
+        "heading2": 220,
+        "length_ft": 6000,
+        "width_ft": 148,
+        "surface": "ASPH"
+      },
+      {
+        "id": "12/30",
+        "heading1": 115,
+        "heading2": 295,
+        "length_ft": 6000,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYAQ": {
+    "airport": "Kasabonika Airport",
+    "province": "ON",
+    "declinaison": "6°W",
+    "runways": [
+      {
+        "id": "3/21",
+        "heading1": 33,
+        "heading2": 213,
+        "length_ft": 3519,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYAT": {
+    "airport": "Attawapiskat Airport",
+    "province": "ON",
+    "declinaison": "12°W",
+    "runways": [
+      {
+        "id": "6/24",
+        "heading1": 61,
+        "heading2": 241,
+        "length_ft": 3495,
+        "width_ft": 100,
+        "surface": "GRAVEL"
+      }
+    ]
+  },
+  "CYCC": {
+    "airport": "Cornwall Regional Airport",
+    "province": "ON",
+    "declinaison": "15°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 97,
+        "heading2": 277,
+        "length_ft": 3510,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYCE": {
+    "airport": "Centralia / James T. Field Memorial Aerodrome",
+    "province": "ON",
+    "declinaison": "9°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 101,
+        "heading2": 281,
+        "length_ft": 5013,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "16/34",
+        "heading1": 161,
+        "heading2": 341,
+        "length_ft": 4392,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYCK": {
+    "airport": "Chatham Kent Airport",
+    "province": "ON",
+    "declinaison": "8°W",
+    "runways": [
+      {
+        "id": "6/24",
+        "heading1": 56,
+        "heading2": 236,
+        "length_ft": 5502,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYCN": {
+    "airport": "Cochrane Airport",
+    "province": "ON",
+    "declinaison": "11°W",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 131,
+        "heading2": 311,
+        "length_ft": 4484,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYEE": {
+    "airport": "Huronia Airport",
+    "province": "ON",
+    "declinaison": "11°W",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": 160,
+        "heading2": 340,
+        "length_ft": 3996,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYEL": {
+    "airport": "Elliot Lake Municipal Airport",
+    "province": "ON",
+    "declinaison": "9°W",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 121,
+        "heading2": 301,
+        "length_ft": 4495,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYEM": {
+    "airport": "Manitoulin East Municipal Airport",
+    "province": "ON",
+    "declinaison": "9°W",
+    "runways": [
+      {
+        "id": "2/20",
+        "heading1": 21,
+        "heading2": 201,
+        "length_ft": 3498,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYER": {
+    "airport": "Fort Severn Airport",
+    "province": "ON",
+    "declinaison": "8°W",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": 150,
+        "heading2": 330,
+        "length_ft": 3519,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYFA": {
+    "airport": "Fort Albany Airport",
+    "province": "ON",
+    "declinaison": "12°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 98,
+        "heading2": 278,
+        "length_ft": 3601,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYFD": {
+    "airport": "Brantford Municipal Airport",
+    "province": "ON",
+    "declinaison": "10°W",
+    "runways": [
+      {
+        "id": "5/23",
+        "heading1": 53,
+        "heading2": 233,
+        "length_ft": 5036,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "11/29",
+        "heading1": 108,
+        "heading2": 288,
+        "length_ft": 2626,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "17/35",
+        "heading1": 174,
+        "heading2": 354,
+        "length_ft": 2626,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYFH": {
+    "airport": "Fort Hope Airport",
+    "province": "ON",
+    "declinaison": "6°W",
+    "runways": [
+      {
+        "id": "9/27",
+        "heading1": 90,
+        "heading2": 270,
+        "length_ft": 3497,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYGD": {
+    "airport": "Goderich Airport",
+    "province": "ON",
+    "declinaison": "9°W",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": 137,
+        "heading2": 317,
+        "length_ft": 5034,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "10/28",
+        "heading1": 99,
+        "heading2": 279,
+        "length_ft": 3002,
+        "width_ft": 50,
+        "surface": "ASPH"
+      },
+      {
+        "id": "5/23",
+        "heading1": 48,
+        "heading2": 228,
+        "length_ft": 1871,
+        "width_ft": 80,
+        "surface": "GRASS"
+      }
+    ]
+  },
+  "CYGK": {
+    "airport": "Kingston Norman Rogers Airport",
+    "province": "ON",
+    "declinaison": "13°W",
+    "runways": [
+      {
+        "id": "1/19",
+        "heading1": 9,
+        "heading2": 189,
+        "length_ft": 6001,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "7/25",
+        "heading1": 66,
+        "heading2": 246,
+        "length_ft": 3909,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYGQ": {
+    "airport": "Geraldton Greenstone Regional Airport",
+    "province": "ON",
+    "declinaison": "6°W",
+    "runways": [
+      {
+        "id": "8/26",
+        "heading1": 79,
+        "heading2": 259,
+        "length_ft": 5007,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYHD": {
+    "airport": "Dryden Regional Airport",
+    "province": "ON",
+    "declinaison": "1°W",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 116,
+        "heading2": 296,
+        "length_ft": 5993,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYHF": {
+    "airport": "Hearst René Fontaine Municipal Airport",
+    "province": "ON",
+    "declinaison": "9°W",
+    "runways": [
+      {
+        "id": "4/22",
+        "heading1": 41,
+        "heading2": 221,
+        "length_ft": 4495,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYHM": {
+    "airport": "John C. Munro Hamilton International Airport",
+    "province": "ON",
+    "declinaison": "10°W",
+    "runways": [
+      {
+        "id": "6/24",
+        "heading1": 59,
+        "heading2": 239,
+        "length_ft": 6010,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "12/30",
+        "heading1": 117,
+        "heading2": 297,
+        "length_ft": 10006,
+        "width_ft": 197,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYHN": {
+    "airport": "Hornepayne Municipal Airport",
+    "province": "ON",
+    "declinaison": "8°W",
+    "runways": [
+      {
+        "id": "7/25",
+        "heading1": 67,
+        "heading2": 247,
+        "length_ft": 3504,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYHS": {
+    "airport": "Hanover / Saugeen Municipal Airport",
+    "province": "ON",
+    "declinaison": "9°W",
+    "runways": [
+      {
+        "id": "1/19",
+        "heading1": 12,
+        "heading2": 192,
+        "length_ft": 4001,
+        "width_ft": 75,
+        "surface": "ASPH"
+      },
+      {
+        "id": "9/27",
+        "heading1": 93,
+        "heading2": 273,
+        "length_ft": 2502,
+        "width_ft": 50,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYIB": {
+    "airport": "Atikokan Municipal Airport",
+    "province": "ON",
+    "declinaison": "2°W",
+    "runways": [
+      {
+        "id": "4/22",
+        "heading1": 40,
+        "heading2": 220,
+        "length_ft": 3495,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYKF": {
+    "airport": "Region of Waterloo International Airport",
+    "province": "ON",
+    "declinaison": "10°W",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": 138,
+        "heading2": 318,
+        "length_ft": 4103,
+        "width_ft": 148,
+        "surface": "ASPH"
+      },
+      {
+        "id": "8/26",
+        "heading1": 75,
+        "heading2": 255,
+        "length_ft": 7003,
+        "width_ft": 148,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYKM": {
+    "airport": "Kincardine Municipal Airport",
+    "province": "ON",
+    "declinaison": "9°W",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 127,
+        "heading2": 307,
+        "length_ft": 4085,
+        "width_ft": 75,
+        "surface": "ASPH"
+      },
+      {
+        "id": "5/23",
+        "heading1": 48,
+        "heading2": 228,
+        "length_ft": 2083,
+        "width_ft": 50,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYKP": {
+    "airport": "Ogoki Post Airport",
+    "province": "ON",
+    "declinaison": "8°W",
+    "runways": [
+      {
+        "id": "9/27",
+        "heading1": 86,
+        "heading2": 266,
+        "length_ft": 3514,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYKX": {
+    "airport": "Kirkland Lake Airport",
+    "province": "ON",
+    "declinaison": "12°W",
+    "runways": [
+      {
+        "id": "8/26",
+        "heading1": 83,
+        "heading2": 263,
+        "length_ft": 4505,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYLD": {
+    "airport": "Chapleau Airport",
+    "province": "ON",
+    "declinaison": "9°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 100,
+        "heading2": 280,
+        "length_ft": 5003,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "5/23",
+        "heading1": 48,
+        "heading2": 228,
+        "length_ft": 3006,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYLH": {
+    "airport": "Lansdowne House Airport",
+    "province": "ON",
+    "declinaison": "6°W",
+    "runways": [
+      {
+        "id": "8/26",
+        "heading1": 84,
+        "heading2": 264,
+        "length_ft": 3484,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYLS": {
+    "airport": "Barrie-Lake Simcoe Regional Airport",
+    "province": "ON",
+    "declinaison": "11°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 97,
+        "heading2": 277,
+        "length_ft": 6001,
+        "width_ft": 148,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYMG": {
+    "airport": "Manitouwadge Airport",
+    "province": "ON",
+    "declinaison": "7°W",
+    "runways": [
+      {
+        "id": "5/23",
+        "heading1": 50,
+        "heading2": 230,
+        "length_ft": 3603,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYMO": {
+    "airport": "Moosonee Airport",
+    "province": "ON",
+    "declinaison": "13°W",
+    "runways": [
+      {
+        "id": "6/24",
+        "heading1": 57,
+        "heading2": 237,
+        "length_ft": 4000,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "14/32",
+        "heading1": 136,
+        "heading2": 316,
+        "length_ft": 3591,
+        "width_ft": 100,
+        "surface": "GRVL/ASPH"
+      }
+    ]
+  },
+  "CYMY": {
+    "airport": "Ear Falls Airport",
+    "province": "ON",
+    "declinaison": "1°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 107,
+        "heading2": 287,
+        "length_ft": 3937,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYOO": {
+    "airport": "Oshawa Executive Airport",
+    "province": "ON",
+    "declinaison": "11°W",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 122,
+        "heading2": 302,
+        "length_ft": 4750,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "5/23",
+        "heading1": 46,
+        "heading2": 226,
+        "length_ft": 2654,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYOS": {
+    "airport": "Owen Sound / Billy Bishop Regional Airport",
+    "province": "ON",
+    "declinaison": "10°W",
+    "runways": [
+      {
+        "id": "18/36",
+        "heading1": 181,
+        "heading2": 1,
+        "length_ft": 3933,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYOW": {
+    "airport": "Ottawa Macdonald-Cartier International Airport",
+    "province": "ON",
+    "declinaison": "14°W",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": 140,
+        "heading2": 320,
+        "length_ft": 10005,
+        "width_ft": 197,
+        "surface": "GROOVED"
+      },
+      {
+        "id": "7/25",
+        "heading1": 71,
+        "heading2": 251,
+        "length_ft": 8000,
+        "width_ft": 197,
+        "surface": "GROOVED"
+      },
+      {
+        "id": "4/22",
+        "heading1": 39,
+        "heading2": 219,
+        "length_ft": 3300,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYPL": {
+    "airport": "Pickle Lake Airport",
+    "province": "ON",
+    "declinaison": "4°W",
+    "runways": [
+      {
+        "id": "9/27",
+        "heading1": 94,
+        "heading2": 274,
+        "length_ft": 5217,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYPM": {
+    "airport": "Pikangikum Airport",
+    "province": "ON",
+    "declinaison": "0°W",
+    "runways": [
+      {
+        "id": "9/27",
+        "heading1": 92,
+        "heading2": 272,
+        "length_ft": 3508,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYPO": {
+    "airport": "Peawanuck Airport",
+    "province": "ON",
+    "declinaison": "10°W",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": 108,
+        "heading2": 288,
+        "length_ft": 3520,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYPQ": {
+    "airport": "Peterborough Municipal Airport",
+    "province": "ON",
+    "declinaison": "12°W",
+    "runways": [
+      {
+        "id": "9/27",
+        "heading1": 88,
+        "heading2": 268,
+        "length_ft": 7005,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "13/31",
+        "heading1": 128,
+        "heading2": 308,
+        "length_ft": 2000,
+        "width_ft": 49,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYPT": {
+    "airport": "Pelee Island Airport",
+    "province": "ON",
+    "declinaison": "8°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 97,
+        "heading2": 277,
+        "length_ft": 3303,
+        "width_ft": 75,
+        "surface": "ASPH"
+      },
+      {
+        "id": "1/19",
+        "heading1": 7,
+        "heading2": 187,
+        "length_ft": 2113,
+        "width_ft": 15,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYQA": {
+    "airport": "Muskoka Airport",
+    "province": "ON",
+    "declinaison": "11°W",
+    "runways": [
+      {
+        "id": "18/36",
+        "heading1": 181,
+        "heading2": 1,
+        "length_ft": 6000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYQG": {
+    "airport": "Windsor Airport",
+    "province": "ON",
+    "declinaison": "7°W",
+    "runways": [
+      {
+        "id": "7/25",
+        "heading1": 70,
+        "heading2": 250,
+        "length_ft": 9000,
+        "width_ft": 200,
+        "surface": "ASPH"
+      },
+      {
+        "id": "12/30",
+        "heading1": 123,
+        "heading2": 303,
+        "length_ft": 5150,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYQK": {
+    "airport": "Kenora Airport",
+    "province": "ON",
+    "declinaison": "1°E",
+    "runways": [
+      {
+        "id": "8/26",
+        "heading1": 77,
+        "heading2": 257,
+        "length_ft": 5800,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYQN": {
+    "airport": "Nakina Airport",
+    "province": "ON",
+    "declinaison": "7°W",
+    "runways": [
+      {
+        "id": "9/27",
+        "heading1": 91,
+        "heading2": 271,
+        "length_ft": 3500,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYQS": {
+    "airport": "St Thomas Municipal Airport",
+    "province": "ON",
+    "declinaison": "9°W",
+    "runways": [
+      {
+        "id": "9/27",
+        "heading1": 94,
+        "heading2": 274,
+        "length_ft": 5013,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "3/21",
+        "heading1": 34,
+        "heading2": 214,
+        "length_ft": 2607,
+        "width_ft": 75,
+        "surface": "ASPH"
+      },
+      {
+        "id": "15/33",
+        "heading1": 154,
+        "heading2": 334,
+        "length_ft": 2610,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYQT": {
+    "airport": "Thunder Bay Airport",
+    "province": "ON",
+    "declinaison": "4°W",
+    "runways": [
+      {
+        "id": "7/25",
+        "heading1": 74,
+        "heading2": 254,
+        "length_ft": 7318,
+        "width_ft": 148,
+        "surface": "ASPH"
+      },
+      {
+        "id": "12/30",
+        "heading1": 125,
+        "heading2": 305,
+        "length_ft": 5297,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYRL": {
+    "airport": "Red Lake Airport",
+    "province": "ON",
+    "declinaison": "0°W",
+    "runways": [
+      {
+        "id": "8/26",
+        "heading1": 80,
+        "heading2": 260,
+        "length_ft": 5001,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYRO": {
+    "airport": "Ottawa / Rockcliffe Airport",
+    "province": "ON",
+    "declinaison": "13°W",
+    "runways": [
+      {
+        "id": "9/27",
+        "heading1": 92,
+        "heading2": 272,
+        "length_ft": 3319,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYRP": {
+    "airport": "Ottawa / Carp Airport",
+    "province": "ON",
+    "declinaison": "13°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 97,
+        "heading2": 277,
+        "length_ft": 3936,
+        "width_ft": 98,
+        "surface": "ASPH"
+      },
+      {
+        "id": "4/22",
+        "heading1": 40,
+        "heading2": 220,
+        "length_ft": 2205,
+        "width_ft": 65,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYSA": {
+    "airport": "Stratford Municipal Airport",
+    "province": "ON",
+    "declinaison": "9°W",
+    "runways": [
+      {
+        "id": "5/23",
+        "heading1": 52,
+        "heading2": 232,
+        "length_ft": 5003,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "17/35",
+        "heading1": 175,
+        "heading2": 355,
+        "length_ft": 2699,
+        "width_ft": 50,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYSB": {
+    "airport": "Sudbury Airport",
+    "province": "ON",
+    "declinaison": "10°W",
+    "runways": [
+      {
+        "id": "4/22",
+        "heading1": 40,
+        "heading2": 220,
+        "length_ft": 6600,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "12/30",
+        "heading1": 116,
+        "heading2": 296,
+        "length_ft": 5000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYSH": {
+    "airport": "Smiths Falls-Montague (Russ Beach) Airport",
+    "province": "ON",
+    "declinaison": "14°W",
+    "runways": [
+      {
+        "id": "6/24",
+        "heading1": 64,
+        "heading2": 244,
+        "length_ft": 3998,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYSN": {
+    "airport": "Niagara District Airport",
+    "province": "ON",
+    "declinaison": "11°W",
+    "runways": [
+      {
+        "id": "6/24",
+        "heading1": 64,
+        "heading2": 244,
+        "length_ft": 5000,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "1/19",
+        "heading1": 9,
+        "heading2": 189,
+        "length_ft": 2498,
+        "width_ft": 75,
+        "surface": "ASPH"
+      },
+      {
+        "id": "11/29",
+        "heading1": 107,
+        "heading2": 287,
+        "length_ft": 1988,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYSP": {
+    "airport": "Marathon Airport",
+    "province": "ON",
+    "declinaison": "6°W",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": 159,
+        "heading2": 339,
+        "length_ft": 3933,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYTA": {
+    "airport": "Pembroke Airport",
+    "province": "ON",
+    "declinaison": "13°W",
+    "runways": [
+      {
+        "id": "17/35",
+        "heading1": 172,
+        "heading2": 352,
+        "length_ft": 5000,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYTL": {
+    "airport": "Big Trout Lake Airport",
+    "province": "ON",
+    "declinaison": "5°W",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": 139,
+        "heading2": 319,
+        "length_ft": 3906,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYTR": {
+    "airport": "CFB Trenton",
+    "province": "ON",
+    "declinaison": "12°W",
+    "runways": [
+      {
+        "id": "6/24",
+        "heading1": 62,
+        "heading2": 242,
+        "length_ft": 10001,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYTS": {
+    "airport": "Timmins/Victor M. Power",
+    "province": "ON",
+    "declinaison": "11°W",
+    "runways": [
+      {
+        "id": "3/21",
+        "heading1": 31,
+        "heading2": 211,
+        "length_ft": 6001,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "10/28",
+        "heading1": 101,
+        "heading2": 281,
+        "length_ft": 4905,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYTZ": {
+    "airport": "Billy Bishop Toronto City Centre Airport",
+    "province": "ON",
+    "declinaison": "11°W",
+    "runways": [
+      {
+        "id": "8/26",
+        "heading1": 82,
+        "heading2": 262,
+        "length_ft": 3988,
+        "width_ft": 150,
+        "surface": "GROOVED"
+      },
+      {
+        "id": "6/24",
+        "heading1": 61,
+        "heading2": 241,
+        "length_ft": 2460,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYVV": {
+    "airport": "Wiarton Airport",
+    "province": "ON",
+    "declinaison": "10°W",
+    "runways": [
+      {
+        "id": "5/23",
+        "heading1": 54,
+        "heading2": 234,
+        "length_ft": 5028,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "11/29",
+        "heading1": 114,
+        "heading2": 294,
+        "length_ft": 3458,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYVZ": {
+    "airport": "Deer Lake Airport",
+    "province": "ON",
+    "declinaison": "0°W",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 128,
+        "heading2": 308,
+        "length_ft": 3506,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYWP": {
+    "airport": "Webequie Airport",
+    "province": "ON",
+    "declinaison": "7°W",
+    "runways": [
+      {
+        "id": "2/20",
+        "heading1": 22,
+        "heading2": 202,
+        "length_ft": 3525,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYXL": {
+    "airport": "Sioux Lookout Airport",
+    "province": "ON",
+    "declinaison": "1°W",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": 160,
+        "heading2": 340,
+        "length_ft": 5300,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYXR": {
+    "airport": "Earlton (Timiskaming Regional) Airport",
+    "province": "ON",
+    "declinaison": "12°W",
+    "runways": [
+      {
+        "id": "8/26",
+        "heading1": 75,
+        "heading2": 255,
+        "length_ft": 5998,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "16/34",
+        "heading1": 160,
+        "heading2": 340,
+        "length_ft": 3019,
+        "width_ft": 150,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYXU": {
+    "airport": "London Airport",
+    "province": "ON",
+    "declinaison": "9°W",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": 148,
+        "heading2": 328,
+        "length_ft": 8800,
+        "width_ft": 200,
+        "surface": "ASPH"
+      },
+      {
+        "id": "9/27",
+        "heading1": 88,
+        "heading2": 268,
+        "length_ft": 6300,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYXZ": {
+    "airport": "Wawa Airport",
+    "province": "ON",
+    "declinaison": "7°W",
+    "runways": [
+      {
+        "id": "3/21",
+        "heading1": 36,
+        "heading2": 216,
+        "length_ft": 4429,
+        "width_ft": 98,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYYB": {
+    "airport": "North Bay Jack Garland Airport",
+    "province": "ON",
+    "declinaison": "11°W",
+    "runways": [
+      {
+        "id": "8/26",
+        "heading1": 77,
+        "heading2": 257,
+        "length_ft": 10004,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "18/36",
+        "heading1": 179,
+        "heading2": 359,
+        "length_ft": 4492,
+        "width_ft": 148,
+        "surface": "ASPH"
+      },
+      {
+        "id": "13/31",
+        "heading1": 128,
+        "heading2": 308,
+        "length_ft": 2000,
+        "width_ft": 75,
+        "surface": "GRASS"
+      }
+    ]
+  },
+  "CYYU": {
+    "airport": "Kapuskasing Airport",
+    "province": "ON",
+    "declinaison": "10°W",
+    "runways": [
+      {
+        "id": "17/35",
+        "heading1": 166,
+        "heading2": 346,
+        "length_ft": 5506,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYYW": {
+    "airport": "Armstrong Airport",
+    "province": "ON",
+    "declinaison": "4°W",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 123,
+        "heading2": 303,
+        "length_ft": 4006,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYYZ": {
+    "airport": "Toronto Lester B. Pearson International Airport",
+    "province": "ON",
+    "declinaison": "10°W",
+    "runways": [
+      {
+        "id": "15L/33R",
+        "heading1": 147,
+        "heading2": 327,
+        "length_ft": 11050,
+        "width_ft": 200,
+        "surface": "ASPH"
+      },
+      {
+        "id": "15R/33L",
+        "heading1": 147,
+        "heading2": 327,
+        "length_ft": 9088,
+        "width_ft": 197,
+        "surface": "ASPH"
+      },
+      {
+        "id": "5/23",
+        "heading1": 57,
+        "heading2": 237,
+        "length_ft": 11120,
+        "width_ft": 200,
+        "surface": "ASPH"
+      },
+      {
+        "id": "6L/24R",
+        "heading1": 57,
+        "heading2": 237,
+        "length_ft": 9697,
+        "width_ft": 197,
+        "surface": "ASPH"
+      },
+      {
+        "id": "6R/24L",
+        "heading1": 57,
+        "heading2": 237,
+        "length_ft": 9000,
+        "width_ft": 197,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYZE": {
+    "airport": "Gore Bay Manitoulin Airport",
+    "province": "ON",
+    "declinaison": "9°W",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": 106,
+        "heading2": 286,
+        "length_ft": 5500,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "5/23",
+        "heading1": 47,
+        "heading2": 227,
+        "length_ft": 2615,
+        "width_ft": 50,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYZR": {
+    "airport": "Chris Hadfield Airport",
+    "province": "ON",
+    "declinaison": "8°W",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": 145,
+        "heading2": 325,
+        "length_ft": 5106,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "6/24",
+        "heading1": 55,
+        "heading2": 235,
+        "length_ft": 2990,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZBA": {
+    "airport": "Burlington Executive Airpark",
+    "province": "ON",
+    "declinaison": "10°W",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": 141,
+        "heading2": 321,
+        "length_ft": 3950,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZKE": {
+    "airport": "Kashechewan Airport",
+    "province": "ON",
+    "declinaison": "12°W",
+    "runways": [
+      {
+        "id": "6/24",
+        "heading1": 64,
+        "heading2": 244,
+        "length_ft": 3903,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CZMD": {
+    "airport": "Muskrat Dam Airport",
+    "province": "ON",
+    "declinaison": "3°W",
+    "runways": [
+      {
+        "id": "5/23",
+        "heading1": 52,
+        "heading2": 232,
+        "length_ft": 3508,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CZPB": {
+    "airport": "Sachigo Lake Airport",
+    "province": "ON",
+    "declinaison": "2°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 95,
+        "heading2": 275,
+        "length_ft": 3507,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CZRJ": {
+    "airport": "Round Lake (Weagamow Lake) Airport",
+    "province": "ON",
+    "declinaison": "3°W",
+    "runways": [
+      {
+        "id": "3/21",
+        "heading1": 26,
+        "heading2": 206,
+        "length_ft": 3613,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CZSJ": {
+    "airport": "Sandy Lake Airport",
+    "province": "ON",
+    "declinaison": "1°W",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": 114,
+        "heading2": 294,
+        "length_ft": 3507,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CZUC": {
+    "airport": "Ignace Municipal Airport",
+    "province": "ON",
+    "declinaison": "1°W",
+    "runways": [
+      {
+        "id": "5/23",
+        "heading1": 52,
+        "heading2": 232,
+        "length_ft": 3512,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYBF": {
+    "airport": "Bonnyville Airport",
+    "province": "AB",
+    "declinaison": "13°E",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 77,
+        "heading2": 257,
+        "length_ft": 4434,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYBP": {
+    "airport": "Brooks Regional Airport",
+    "province": "AB",
+    "declinaison": "14°E",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 126,
+        "heading2": 306,
+        "length_ft": 3216,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYBW": {
+    "airport": "Calgary / Springbank Airport",
+    "province": "AB",
+    "declinaison": "15°E",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 75,
+        "heading2": 255,
+        "length_ft": 3423,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "17/35",
+        "heading1": 165,
+        "heading2": 345,
+        "length_ft": 5000,
+        "width_ft": 98,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYCT": {
+    "airport": "Coronation Airport",
+    "province": "AB",
+    "declinaison": "14°E",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": 113,
+        "heading2": 293,
+        "length_ft": 3000,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYEA": {
+    "airport": "Empress Airport",
+    "province": "AB",
+    "declinaison": "13°E",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": 114,
+        "heading2": 294,
+        "length_ft": 2953,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYEG": {
+    "airport": "Edmonton International Airport",
+    "province": "AB",
+    "declinaison": "15°E",
+    "runways": [
+      {
+        "id": "02/20",
+        "heading1": 20,
+        "heading2": 200,
+        "length_ft": 10995,
+        "width_ft": 200,
+        "surface": "ASPH"
+      },
+      {
+        "id": "12/30",
+        "heading1": 120,
+        "heading2": 300,
+        "length_ft": 10200,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYET": {
+    "airport": "Edson Airport",
+    "province": "AB",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": 74,
+        "heading2": 254,
+        "length_ft": 5997,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYJA": {
+    "airport": "Jasper Airport",
+    "province": "AB",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 136,
+        "heading2": 316,
+        "length_ft": 3990,
+        "width_ft": 150,
+        "surface": "GRASS"
+      }
+    ]
+  },
+  "CYLB": {
+    "airport": "Lac La Biche Airport",
+    "province": "AB",
+    "declinaison": "15°E",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": 115,
+        "heading2": 295,
+        "length_ft": 5704,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYLL": {
+    "airport": "Lloydminster Airport",
+    "province": "AB",
+    "declinaison": "13°E",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 77,
+        "heading2": 257,
+        "length_ft": 5577,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "13/31",
+        "heading1": 127,
+        "heading2": 307,
+        "length_ft": 1202,
+        "width_ft": 100,
+        "surface": "GRASS"
+      }
+    ]
+  },
+  "CYMM": {
+    "airport": "Fort McMurray Airport",
+    "province": "AB",
+    "declinaison": "15°E",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 75,
+        "heading2": 255,
+        "length_ft": 7503,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYNR": {
+    "airport": "Fort Mackay / Horizon Airport",
+    "province": "AB",
+    "declinaison": "15°E",
+    "runways": [
+      {
+        "id": "17/35",
+        "heading1": 173,
+        "heading2": 353,
+        "length_ft": 6001,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYOD": {
+    "airport": "CFB Cold Lake",
+    "province": "AB",
+    "declinaison": "13°E",
+    "runways": [
+      {
+        "id": "13L/31R",
+        "heading1": 131,
+        "heading2": 311,
+        "length_ft": 12599,
+        "width_ft": 200,
+        "surface": "ASPH"
+      },
+      {
+        "id": "13R/31L",
+        "heading1": 131,
+        "heading2": 311,
+        "length_ft": 9999,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "04/22",
+        "heading1": 41,
+        "heading2": 221,
+        "length_ft": 8273,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYOJ": {
+    "airport": "High Level Airport",
+    "province": "AB",
+    "declinaison": "18°E",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 136,
+        "heading2": 316,
+        "length_ft": 5002,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYOP": {
+    "airport": "Rainbow Lake Airport",
+    "province": "AB",
+    "declinaison": "18°E",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 96,
+        "heading2": 276,
+        "length_ft": 5002,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYPE": {
+    "airport": "Peace River Airport",
+    "province": "AB",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "04/22",
+        "heading1": 42,
+        "heading2": 222,
+        "length_ft": 5000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYPY": {
+    "airport": "Fort Chipewyan Airport",
+    "province": "AB",
+    "declinaison": "15°E",
+    "runways": [
+      {
+        "id": "04/22",
+        "heading1": 37,
+        "heading2": 217,
+        "length_ft": 5000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYQF": {
+    "airport": "Red Deer Regional Airport",
+    "province": "AB",
+    "declinaison": "14°E",
+    "runways": [
+      {
+        "id": "17/35",
+        "heading1": 165,
+        "heading2": 345,
+        "length_ft": 7500,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "12/30",
+        "heading1": 115,
+        "heading2": 295,
+        "length_ft": 3454,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYQL": {
+    "airport": "Lethbridge County Airport",
+    "province": "AB",
+    "declinaison": "14°E",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 56,
+        "heading2": 236,
+        "length_ft": 6500,
+        "width_ft": 200,
+        "surface": "ASPH"
+      },
+      {
+        "id": "13/31",
+        "heading1": 126,
+        "heading2": 306,
+        "length_ft": 5500,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYQU": {
+    "airport": "Grande Prairie Airport",
+    "province": "AB",
+    "declinaison": "18°E",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 117,
+        "heading2": 297,
+        "length_ft": 8502,
+        "width_ft": 148,
+        "surface": "ASPH"
+      },
+      {
+        "id": "07/25",
+        "heading1": 72,
+        "heading2": 252,
+        "length_ft": 6200,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYRM": {
+    "airport": "Rocky Mountain House Airport",
+    "province": "AB",
+    "declinaison": "15°E",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 132,
+        "heading2": 312,
+        "length_ft": 5513,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYVG": {
+    "airport": "Vermilion Airport",
+    "province": "AB",
+    "declinaison": "14°E",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 105,
+        "heading2": 285,
+        "length_ft": 3382,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYWM": {
+    "airport": "Athabasca Airport",
+    "province": "AB",
+    "declinaison": "15°E",
+    "runways": [
+      {
+        "id": "17/35",
+        "heading1": 165,
+        "heading2": 345,
+        "length_ft": 4003,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYWV": {
+    "airport": "Wainwright Airport",
+    "province": "AB",
+    "declinaison": "13°E",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 127,
+        "heading2": 307,
+        "length_ft": 3000,
+        "width_ft": 75,
+        "surface": "ASPH/SNOW"
+      }
+    ]
+  },
+  "CYXH": {
+    "airport": "Medicine Hat Regional Airport",
+    "province": "AB",
+    "declinaison": "13°E",
+    "runways": [
+      {
+        "id": "03/21",
+        "heading1": 32,
+        "heading2": 212,
+        "length_ft": 5003,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "09/27",
+        "heading1": 95,
+        "heading2": 275,
+        "length_ft": 2850,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYYC": {
+    "airport": "Calgary International Airport",
+    "province": "AB",
+    "declinaison": "15°E",
+    "runways": [
+      {
+        "id": "17L/35R",
+        "heading1": 165,
+        "heading2": 345,
+        "length_ft": 14000,
+        "width_ft": 200,
+        "surface": "CONC"
+      },
+      {
+        "id": "17R/35L",
+        "heading1": 165,
+        "heading2": 345,
+        "length_ft": 12675,
+        "width_ft": 200,
+        "surface": "ASPH"
+      },
+      {
+        "id": "11/29",
+        "heading1": 105,
+        "heading2": 285,
+        "length_ft": 8000,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYYM": {
+    "airport": "Cowley Airport",
+    "province": "AB",
+    "declinaison": "14°E",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": 110,
+        "heading2": 290,
+        "length_ft": 4330,
+        "width_ft": 300,
+        "surface": "GRASS"
+      },
+      {
+        "id": "03/21",
+        "heading1": 30,
+        "heading2": 210,
+        "length_ft": 3600,
+        "width_ft": 300,
+        "surface": "GRASS"
+      }
+    ]
+  },
+  "CYZH": {
+    "airport": "Slave Lake Airport",
+    "province": "AB",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 100,
+        "heading2": 280,
+        "length_ft": 5569,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYZU": {
+    "airport": "Whitecourt Airport",
+    "province": "AB",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": 110,
+        "heading2": 290,
+        "length_ft": 5797,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZHP": {
+    "airport": "High Prairie Airport",
+    "province": "AB",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": 74,
+        "heading2": 254,
+        "length_ft": 4332,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZPC": {
+    "airport": "Pincher Creek Airport",
+    "province": "AB",
+    "declinaison": "14°E",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 76,
+        "heading2": 256,
+        "length_ft": 6597,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZVL": {
+    "airport": "Edmonton / Villeneuve Airport",
+    "province": "AB",
+    "declinaison": "14°E",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 86,
+        "heading2": 266,
+        "length_ft": 5001,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "16/34",
+        "heading1": 166,
+        "heading2": 346,
+        "length_ft": 3496,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+   "CYAL": {
+    "airport": "Alert Bay Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 94,
+        "heading2": 274,
+        "length_ft": 2985,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYAZ": {
+    "airport": "Tofino / Long Beach Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": 158,
+        "heading2": 338,
+        "length_ft": 5000,
+        "width_ft": 100,
+        "surface": "CONC"
+      },
+      {
+        "id": "11/29",
+        "heading1": 109,
+        "heading2": 289,
+        "length_ft": 5000,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "07/25",
+        "heading1": 73,
+        "heading2": 253,
+        "length_ft": 5000,
+        "width_ft": 150,
+        "surface": "CONC"
+      }
+    ]
+  },
+  "CYBD": {
+    "airport": "Bella Coola Airport",
+    "province": "BC",
+    "declinaison": "19°E",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": 55,
+        "heading2": 235,
+        "length_ft": 4200,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYBL": {
+    "airport": "Campbell River Airport",
+    "province": "BC",
+    "declinaison": "18°E",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 117,
+        "heading2": 297,
+        "length_ft": 6499,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYCD": {
+    "airport": "Nanaimo Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": []
+  },
+  "CYCG": {
+    "airport": "Castlegar/West Kootenay Regional Airport",
+    "province": "BC",
+    "declinaison": "15°E",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": 154,
+        "heading2": 334,
+        "length_ft": 5299,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYCP": {
+    "airport": "Blue River Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "01/19",
+        "heading1": 13,
+        "heading2": 193,
+        "length_ft": 5066,
+        "width_ft": 60,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYCQ": {
+    "airport": "Chetwynd Airport",
+    "province": "BC",
+    "declinaison": "19°E",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": 54,
+        "heading2": 234,
+        "length_ft": 4481,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYCW": {
+    "airport": "Chilliwack Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": 66,
+        "heading2": 246,
+        "length_ft": 3986,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYCZ": {
+    "airport": "Fairmont Hot Springs Airport",
+    "province": "BC",
+    "declinaison": "15°E",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": 156,
+        "heading2": 336,
+        "length_ft": 6005,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYDC": {
+    "airport": "Princeton Airport",
+    "province": "BC",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "04/22",
+        "heading1": 38,
+        "heading2": 218,
+        "length_ft": 3932,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYDL": {
+    "airport": "Dease Lake Airport",
+    "province": "BC",
+    "declinaison": "19°E",
+    "runways": [
+      {
+        "id": "03/21",
+        "heading1": 33,
+        "heading2": 213,
+        "length_ft": 6003,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYDQ": {
+    "airport": "Dawson Creek Airport",
+    "province": "BC",
+    "declinaison": "18°E",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": 68,
+        "heading2": 248,
+        "length_ft": 5001,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYGB": {
+    "airport": "Texada Gillies Bay Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": 141,
+        "heading2": 321,
+        "length_ft": 3000,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYGE": {
+    "airport": "Golden Airport",
+    "province": "BC",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": 142,
+        "heading2": 322,
+        "length_ft": 4528,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYHE": {
+    "airport": "Hope Airport / FVRD Regional Airpark",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": []
+  },
+  "CYJM": {
+    "airport": "Fort St James Airport",
+    "province": "BC",
+    "declinaison": "19°E",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 112,
+        "heading2": 292,
+        "length_ft": 4270,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYJQ": {
+    "airport": "Denny Island Airport",
+    "province": "BC",
+    "declinaison": "19°E",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 104,
+        "heading2": 284,
+        "length_ft": 2954,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYKA": {
+    "airport": "Kamloops John Moose Fulton Field Regional Airport",
+    "province": "BC",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 87,
+        "heading2": 267,
+        "length_ft": 8000,
+        "width_ft": 148,
+        "surface": "ASPH"
+      },
+      {
+        "id": "05/23",
+        "heading1": 45,
+        "heading2": 225,
+        "length_ft": 1875,
+        "width_ft": 49,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYLI": {
+    "airport": "Lillooet Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": 140,
+        "heading2": 320,
+        "length_ft": 3990,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYLW": {
+    "airport": "Kelowna International Airport",
+    "province": "BC",
+    "declinaison": "15°E",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": 160,
+        "heading2": 340,
+        "length_ft": 9039,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYNH": {
+    "airport": "Hudson's Hope Airport",
+    "province": "BC",
+    "declinaison": "19°E",
+    "runways": [
+      {
+        "id": "5/23",
+        "heading1": 50,
+        "heading2": 230,
+        "length_ft": 5200,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYNJ": {
+    "airport": "Langley Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": 75,
+        "heading2": 255,
+        "length_ft": 2743,
+        "width_ft": 75,
+        "surface": "ASPH"
+      },
+      {
+        "id": "01/19",
+        "heading1": 15,
+        "heading2": 195,
+        "length_ft": 2100,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYPK": {
+    "airport": "Pitt Meadows Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 80,
+        "heading2": 260,
+        "length_ft": 5003,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "08/26",
+        "heading1": 80,
+        "heading2": 260,
+        "length_ft": 2485,
+        "width_ft": 75,
+        "surface": "ASPH"
+      },
+      {
+        "id": "18/36",
+        "heading1": 185,
+        "heading2": 5,
+        "length_ft": 2484,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYPR": {
+    "airport": "Prince Rupert Airport",
+    "province": "BC",
+    "declinaison": "19°E",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 132,
+        "heading2": 312,
+        "length_ft": 6000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYPS": {
+    "airport": "Pemberton Regional Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 67,
+        "heading2": 247,
+        "length_ft": 3917,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYPU": {
+    "airport": "Puntzi Mountain Airport",
+    "province": "BC",
+    "declinaison": "18°E",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": 49,
+        "heading2": 229,
+        "length_ft": 6012,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYPW": {
+    "airport": "Powell River Airport",
+    "province": "BC",
+    "declinaison": "18°E",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 92,
+        "heading2": 272,
+        "length_ft": 3769,
+        "width_ft": 148,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYPZ": {
+    "airport": "Burns Lake Airport",
+    "province": "BC",
+    "declinaison": "19°E",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": 118,
+        "heading2": 298,
+        "length_ft": 5060,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYQQ": {
+    "airport": "Comox Valley Airport / CFB Comox",
+    "province": "BC",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 119,
+        "heading2": 299,
+        "length_ft": 10001,
+        "width_ft": 200,
+        "surface": "CONC"
+      },
+      {
+        "id": "18/36",
+        "heading1": 186,
+        "heading2": 6,
+        "length_ft": 4998,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYQZ": {
+    "airport": "Quesnel Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 133,
+        "heading2": 313,
+        "length_ft": 5501,
+        "width_ft": 150,
+        "surface": "CONC/ASPH"
+      }
+    ]
+  },
+  "CYRV": {
+    "airport": "Revelstoke Airport",
+    "province": "BC",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 120,
+        "heading2": 300,
+        "length_ft": 5155,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYSE": {
+    "airport": "Squamish Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": 150,
+        "heading2": 330,
+        "length_ft": 2400,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYSQ": {
+    "airport": "Atlin Airport",
+    "province": "BC",
+    "declinaison": "20°E",
+    "runways": [
+      {
+        "id": "01/19",
+        "heading1": 10,
+        "heading2": 190,
+        "length_ft": 3949,
+        "width_ft": 75,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYSW": {
+    "airport": "Sparwood Elk Valley Airport",
+    "province": "BC",
+    "declinaison": "15°E",
+    "runways": [
+      {
+        "id": "17/35",
+        "heading1": 175,
+        "heading2": 355,
+        "length_ft": 3963,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYVK": {
+    "airport": "Vernon Regional Airport",
+    "province": "BC",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": 54,
+        "heading2": 234,
+        "length_ft": 3517,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYVR": {
+    "airport": "Vancouver International Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "08R/26L",
+        "heading1": 83,
+        "heading2": 263,
+        "length_ft": 12188,
+        "width_ft": 200,
+        "surface": "ASPH/CONC"
+      },
+      {
+        "id": "08L/26R",
+        "heading1": 83,
+        "heading2": 263,
+        "length_ft": 9941,
+        "width_ft": 200,
+        "surface": "CONC"
+      },
+      {
+        "id": "13/31",
+        "heading1": 125,
+        "heading2": 305,
+        "length_ft": 7300,
+        "width_ft": 200,
+        "surface": "ASPH/CONC"
+      }
+    ]
+  },
+  "CYWL": {
+    "airport": "Williams Lake Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 116,
+        "heading2": 296,
+        "length_ft": 6966,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYXC": {
+    "airport": "Cranbrook/Canadian Rockies International Airport",
+    "province": "BC",
+    "declinaison": "15°E",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": 164,
+        "heading2": 344,
+        "length_ft": 8000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYXJ": {
+    "airport": "Fort St John / North Peace Regional Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 118,
+        "heading2": 298,
+        "length_ft": 6909,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "03/21",
+        "heading1": 28,
+        "heading2": 208,
+        "length_ft": 6698,
+        "width_ft": 148,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYXS": {
+    "airport": "Prince George Airport",
+    "province": "BC",
+    "declinaison": "18°E",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": 153,
+        "heading2": 333,
+        "length_ft": 11450,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "06/24",
+        "heading1": 63,
+        "heading2": 243,
+        "length_ft": 5624,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "01/19",
+        "heading1": 13,
+        "heading2": 193,
+        "length_ft": 3769,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYXT": {
+    "airport": "Northwest Regional Airport Terrace-Kitimat",
+    "province": "BC",
+    "declinaison": "19°E",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": 153,
+        "heading2": 333,
+        "length_ft": 7497,
+        "width_ft": 148,
+        "surface": "ASPH"
+      },
+      {
+        "id": "03/21",
+        "heading1": 33,
+        "heading2": 213,
+        "length_ft": 5316,
+        "width_ft": 148,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYXX": {
+    "airport": "Abbotsford International Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": 69,
+        "heading2": 249,
+        "length_ft": 9597,
+        "width_ft": 200,
+        "surface": "ASPH"
+      },
+      {
+        "id": "01/19",
+        "heading1": 9,
+        "heading2": 189,
+        "length_ft": 5328,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYYD": {
+    "airport": "Smithers Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": 153,
+        "heading2": 333,
+        "length_ft": 7547,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYYE": {
+    "airport": "Fort Nelson Airport",
+    "province": "BC",
+    "declinaison": "18°E",
+    "runways": [
+      {
+        "id": "04/22",
+        "heading1": 39,
+        "heading2": 219,
+        "length_ft": 6402,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "08/26",
+        "heading1": 84,
+        "heading2": 264,
+        "length_ft": 3575,
+        "width_ft": 77,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYYF": {
+    "airport": "Penticton Airport",
+    "province": "BC",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": 165,
+        "heading2": 345,
+        "length_ft": 6000,
+        "width_ft": 149,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYYJ": {
+    "airport": "Victoria International Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "03/21",
+        "heading1": 27,
+        "heading2": 207,
+        "length_ft": 5027,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYZP": {
+    "airport": "Sandspit Airport",
+    "province": "BC",
+    "declinaison": "19°E",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 125,
+        "heading2": 305,
+        "length_ft": 5112,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYZT": {
+    "airport": "Port Hardy Airport",
+    "province": "BC",
+    "declinaison": "18°E",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 76,
+        "heading2": 256,
+        "length_ft": 4000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "16/34",
+        "heading1": 162,
+        "heading2": 342,
+        "length_ft": 3984,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYZY": {
+    "airport": "Mackenzie Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "17/35",
+        "heading1": 169,
+        "heading2": 349,
+        "length_ft": 5033,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZAM": {
+    "airport": "Salmon Arm Regional Airport",
+    "province": "BC",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": 142,
+        "heading2": 322,
+        "length_ft": 4261,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZBB": {
+    "airport": "Boundary Bay Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": 73,
+        "heading2": 253,
+        "length_ft": 6015,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "13/31",
+        "heading1": 126,
+        "heading2": 306,
+        "length_ft": 5605,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZGF": {
+    "airport": "Grand Forks Airport",
+    "province": "BC",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": 74,
+        "heading2": 254,
+        "length_ft": 4311,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZML": {
+    "airport": "South Cariboo Region / 108 Mile Airport",
+    "province": "BC",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": 148,
+        "heading2": 328,
+        "length_ft": 5292,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZMT": {
+    "airport": "Masset Airport",
+    "province": "BC",
+    "declinaison": "19°E",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 129,
+        "heading2": 309,
+        "length_ft": 4924,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZNL": {
+    "airport": "Nelson Airport",
+    "province": "BC",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "04/22",
+        "heading1": 40,
+        "heading2": 220,
+        "length_ft": 3100,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZST": {
+    "airport": "Stewart Airport",
+    "province": "BC",
+    "declinaison": "18°E",
+    "runways": [
+      {
+        "id": "18/36",
+        "heading1": 180,
+        "heading2": 360,
+        "length_ft": 3900,
+        "width_ft": 75,
+        "surface": "ASPH/SNOW"
+      }
+    ]
+  },
+  "CYAV": {
+    "airport": "Winnipeg / St. Andrews Airport",
+    "province": "MB",
+    "declinaison": "4°E",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 129,
+        "heading2": 309,
+        "length_ft": 3002,
+        "width_ft": 75,
+        "surface": "ASPH RWY 18"
+      },
+      {
+        "id": "04/22",
+        "heading1": 41,
+        "heading2": 221,
+        "length_ft": 2852,
+        "width_ft": 75,
+        "surface": "ASPH"
+      },
+        {
+        "id": "18/36",
+        "heading1": 184,
+        "heading2": 4,
+        "length_ft": 3000,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYAX": {
+    "airport": "Lac du Bonnet Airport",
+    "province": "MB",
+    "declinaison": "2°E",
+    "runways": [
+      {
+        "id": "18/36",
+        "heading1": 184,
+        "heading2": 4,
+        "length_ft": 3609,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYBQ": {
+    "airport": "Tadoule Lake Airport",
+    "province": "MB",
+    "declinaison": "3°E",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": 69,
+        "heading2": 249,
+        "length_ft": 3202,
+        "width_ft": 102,
+        "surface": "CRUSHED ROCK"
+      }
+    ]
+  },
+  "CYBR": {
+    "airport": "Brandon Municipal Airport",
+    "province": "MB",
+    "declinaison": "6°E",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 85,
+        "heading2": 265,
+        "length_ft": 6505,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "14/32",
+        "heading1": 145,
+        "heading2": 325,
+        "length_ft": 2901,
+        "width_ft": 60,
+        "surface": "treated GRVL/ASPH"
+      }
+    ]
+  },
+  "CYBT": {
+    "airport": "Brochet Airport",
+    "province": "MB",
+    "declinaison": "7°E",
+    "runways": [
+      {
+        "id": "03/21",
+        "heading1": 34,
+        "heading2": 214,
+        "length_ft": 3511,
+        "width_ft": 90,
+        "surface": "CRUSHED ROCK"
+      }
+    ]
+  },
+  "CYBV": {
+    "airport": "Berens River Airport",
+    "province": "MB",
+    "declinaison": "4°E",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 86,
+        "heading2": 266,
+        "length_ft": 2888,
+        "width_ft": 75,
+        "surface": "CRUSHED ROCK"
+      }
+    ]
+  },
+  "CYCR": {
+    "airport": "Cross Lake (Charlie Sinclair Memorial) Airport",
+    "province": "MB",
+    "declinaison": "3°E",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": 51,
+        "heading2": 231,
+        "length_ft": 3993,
+        "width_ft": 98,
+        "surface": "CRUSHED ROCK"
+      }
+    ]
+  },
+  "CYDN": {
+    "airport": "Dauphin Barker Airport",
+    "province": "MB",
+    "declinaison": "6°E",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": 144,
+        "heading2": 324,
+        "length_ft": 5002,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "08/26",
+        "heading1": 84,
+        "heading2": 264,
+        "length_ft": 2703,
+        "width_ft": 75,
+        "surface": "ASPH"
+      },
+      {
+        "id": "02/20",
+        "heading1": 24,
+        "heading2": 204,
+        "length_ft": 2110,
+        "width_ft": 60,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYFO": {
+    "airport": "Flin Flon Airport",
+    "province": "MB",
+    "declinaison": "7°E",
+    "runways": [
+      {
+        "id": "01/19",
+        "heading1": 5,
+        "heading2": 185,
+        "length_ft": 5004,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYGM": {
+    "airport": "Gimli Industrial Park Airport",
+    "province": "MB",
+    "declinaison": "3°E",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": 147,
+        "heading2": 327,
+        "length_ft": 6800,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYGO": {
+    "airport": "Gods Lake Narrows Airport",
+    "province": "MB",
+    "declinaison": "0°",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": 141,
+        "heading2": 321,
+        "length_ft": 3810,
+        "width_ft": 100,
+        "surface": "CRUSHED ROCK"
+      }
+    ]
+  },
+  "CYGX": {
+    "airport": "Gillam Airport",
+    "province": "MB",
+    "declinaison": "1°E",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": 46,
+        "heading2": 226,
+        "length_ft": 5034,
+        "width_ft": 131,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYIV": {
+    "airport": "Island Lake Airport",
+    "province": "MB",
+    "declinaison": "0°",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 122,
+        "heading2": 302,
+        "length_ft": 4000,
+        "width_ft": 100,
+        "surface": "CRUSHED ROCK"
+      }
+    ]
+  },
+  "CYLR": {
+    "airport": "Leaf Rapids Airport",
+    "province": "MB",
+    "declinaison": "5°E",
+    "runways": [
+      {
+        "id": "17/35",
+        "heading1": 181,
+        "heading2": 1,
+        "length_ft": 3000,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYNE": {
+    "airport": "Norway House Airport",
+    "province": "MB",
+    "declinaison": "3°E",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 57,
+        "heading2": 237,
+        "length_ft": 3903,
+        "width_ft": 105,
+        "surface": "CRUSHED ROCK"
+      }
+    ]
+  },
+  "CYNN": {
+    "airport": "Nejanilini Lake Airport",
+    "province": "MB",
+    "declinaison": "2°E",
+    "runways": [
+      {
+        "id": "18/36",
+        "heading1": 180,
+        "heading2": 360,
+        "length_ft": 3442,
+        "width_ft": 80,
+        "surface": "GRVL/SAND"
+      }
+    ]
+  },
+  "CYOH": {
+    "airport": "Oxford House Airport",
+    "province": "MB",
+    "declinaison": "1°E",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": 49,
+        "heading2": 229,
+        "length_ft": 3829,
+        "width_ft": 82,
+        "surface": "CRUSHED ROCK"
+      }
+    ]
+  },
+  "CYPG": {
+    "airport": "Portage-la-Prairie / Southport Airport",
+    "province": "MB",
+    "declinaison": "4°E",
+    "runways": [
+      {
+        "id": "13R/31L",
+        "heading1": 130,
+        "heading2": 310,
+        "length_ft": 7000,
+        "width_ft": 148,
+        "surface": "ASPH"
+      },
+      {
+        "id": "13L/31R",
+        "heading1": 130,
+        "heading2": 310,
+        "length_ft": 3120,
+        "width_ft": 98,
+        "surface": "ASPH"
+      },
+      {
+        "id": "09/27",
+        "heading1": 85,
+        "heading2": 265,
+        "length_ft": 2670,
+        "width_ft": 98,
+        "surface": "ASPH"
+      },
+        {
+        "id": "02/20",
+        "heading1": 15,
+        "heading2": 195,
+        "length_ft": 3033,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYQD": {
+    "airport": "The Pas Airport",
+    "province": "MB",
+    "declinaison": "6°E",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 129,
+        "heading2": 309,
+        "length_ft": 5901,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYRS": {
+    "airport": "Red Sucker Lake Airport",
+    "province": "MB",
+    "declinaison": "1°W",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 87,
+        "heading2": 267,
+        "length_ft": 3552,
+        "width_ft": 98,
+        "surface": "CRUSHED ROCK"
+      }
+    ]
+  },
+  "CYST": {
+    "airport": "St. Theresa Point Airport",
+    "province": "MB",
+    "declinaison": "0°",
+    "runways": [
+      {
+        "id": "04/22",
+        "heading1": 41,
+        "heading2": 221,
+        "length_ft": 3393,
+        "width_ft": 75,
+        "surface": "CRUSHED ROCK"
+      }
+    ]
+  },
+  "CYTH": {
+    "airport": "Thompson Airport",
+    "province": "MB",
+    "declinaison": "3°E",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 58,
+        "heading2": 238,
+        "length_ft": 5800,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+       {
+        "id": "15/33",
+        "heading1": 148,
+        "heading2": 328,
+        "length_ft": 5079,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYVD": {
+    "airport": "Virden / RJ (Bob) Andrew Field Regional Aerodrome",
+    "province": "MB",
+    "declinaison": "6°E",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 83,
+        "heading2": 263,
+        "length_ft": 6001,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYWG": {
+    "airport": "Winnipeg / James Armstrong Richardson International Airport",
+    "province": "MB",
+    "declinaison": "3°E",
+    "runways": [
+      {
+        "id": "18/36",
+        "heading1": 185,
+        "heading2": 5,
+        "length_ft": 11000,
+        "width_ft": 200,
+        "surface": "ASPH"
+      },
+        {
+        "id": "13/31",
+        "heading1": 135,
+        "heading2": 315,
+        "length_ft": 8841,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYYL": {
+    "airport": "Lynn Lake Airport",
+    "province": "MB",
+    "declinaison": "6°E",
+    "runways": [
+      {
+        "id": "17/35",
+        "heading1": 174,
+        "heading2": 354,
+        "length_ft": 5004,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYYQ": {
+    "airport": "Churchill Airport",
+    "province": "MB",
+    "declinaison": "2°E",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": 155,
+        "heading2": 335,
+        "length_ft": 9195,
+        "width_ft": 160,
+        "surface": "ASPH RWY 07"
+      },
+       {
+        "id": "07/25",
+        "heading1": 74,
+        "heading2": 254,
+        "length_ft": 4000,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CZAC": {
+    "airport": "York Landing Airport",
+    "province": "MB",
+    "declinaison": "1°E",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 103,
+        "heading2": 283,
+        "length_ft": 3397,
+        "width_ft": 84,
+        "surface": "CRUSHED ROCK"
+      }
+    ]
+  },
+  "CZEE": {
+    "airport": "Kelsey Airport",
+    "province": "MB",
+    "declinaison": "3°E",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 118,
+        "heading2": 298,
+        "length_ft": 3800,
+        "width_ft": 75,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CZGI": {
+    "airport": "Gods River Airport",
+    "province": "MB",
+    "declinaison": "1°E",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 91,
+        "heading2": 271,
+        "length_ft": 3538,
+        "width_ft": 80,
+        "surface": "CRUSHED ROCK"
+      }
+    ]
+  },
+  "CYCH": {
+    "airport": "Miramichi Airport",
+    "province": "NB",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 89,
+        "heading2": 269,
+        "length_ft": 10006,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYCL": {
+    "airport": "Charlo Airport",
+    "province": "NB",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 122,
+        "heading2": 302,
+        "length_ft": 6009,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYES": {
+    "airport": "André Bard's Edmundston Airport",
+    "province": "NB",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": 152,
+        "heading2": 332,
+        "length_ft": 4562,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYFC": {
+    "airport": "Fredericton Airport",
+    "province": "NB",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 87,
+        "heading2": 267,
+        "length_ft": 8005,
+        "width_ft": 200,
+        "surface": "ASPH"
+      },
+      {
+        "id": "15/33",
+        "heading1": 148,
+        "heading2": 328,
+        "length_ft": 7000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYQM": {
+    "airport": "Greater Moncton Roméo LeBlanc International Airport",
+    "province": "NB",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 61,
+        "heading2": 241,
+        "length_ft": 10001,
+        "width_ft": 200,
+        "surface": "ASPH"
+      },
+      {
+        "id": "11/29",
+        "heading1": 106,
+        "heading2": 286,
+        "length_ft": 8000,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYSJ": {
+    "airport": "Saint John Airport",
+    "province": "NB",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": 49,
+        "heading2": 229,
+        "length_ft": 7201,
+        "width_ft": 148,
+        "surface": "ASPH"
+      },
+      {
+        "id": "14/32",
+        "heading1": 138,
+        "heading2": 318,
+        "length_ft": 5100,
+        "width_ft": 148,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYSL": {
+    "airport": "Saint-Léonard Airport",
+    "province": "NB",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "18/36",
+        "heading1": 174,
+        "heading2": 354,
+        "length_ft": 5026,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZBF": {
+    "airport": "Bathurst Airport",
+    "province": "NB",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 100,
+        "heading2": 280,
+        "length_ft": 5613,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYAY": {
+    "airport": "St. Anthony Airport",
+    "province": "NL",
+    "declinaison": "19°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 99,
+        "heading2": 279,
+        "length_ft": 4003,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYCA": {
+    "airport": "Cartwright Airport",
+    "province": "NL",
+    "declinaison": "20°W",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 75,
+        "heading2": 255,
+        "length_ft": 3937,
+        "width_ft": 75,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYDF": {
+    "airport": "Deer Lake Airport",
+    "province": "NL",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": 64,
+        "heading2": 244,
+        "length_ft": 8005,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYDP": {
+    "airport": "Nain Airport",
+    "province": "NL",
+    "declinaison": "22°W",
+    "runways": [
+      {
+        "id": "04/22",
+        "heading1": 41,
+        "heading2": 221,
+        "length_ft": 1986,
+        "width_ft": 75,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYFT": {
+    "airport": "Makkovik Airport",
+    "province": "NL",
+    "declinaison": "20°W",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 87,
+        "heading2": 267,
+        "length_ft": 2592,
+        "width_ft": 75,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYHO": {
+    "airport": "Hopedale Airport",
+    "province": "NL",
+    "declinaison": "21°W",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 65,
+        "heading2": 245,
+        "length_ft": 2501,
+        "width_ft": 75,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYJT": {
+    "airport": "Stephenville Dymond Airport",
+    "province": "NL",
+    "declinaison": "20°W",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 91,
+        "heading2": 271,
+        "length_ft": 10011,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYMH": {
+    "airport": "Mary's Harbour Airport",
+    "province": "NL",
+    "declinaison": "19°W",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": 107,
+        "heading2": 287,
+        "length_ft": 2545,
+        "width_ft": 75,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYQX": {
+    "airport": "Gander International Airport / CFB Gander",
+    "province": "NL",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "03/21",
+        "heading1": 28,
+        "heading2": 208,
+        "length_ft": 10200,
+        "width_ft": 200,
+        "surface": "ASPH"
+      },
+      {
+        "id": "13/31",
+        "heading1": 125,
+        "heading2": 305,
+        "length_ft": 8900,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYWK": {
+    "airport": "Wabush Airport",
+    "province": "NL",
+    "declinaison": "19°W",
+    "runways": [
+      {
+        "id": "18/36",
+        "heading1": 179,
+        "heading2": 359,
+        "length_ft": 6002,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYYR": {
+    "airport": "Goose Bay Airport",
+    "province": "NL",
+    "declinaison": "20°W",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 75,
+        "heading2": 255,
+        "length_ft": 11052,
+        "width_ft": 200,
+        "surface": "CONC/ASPH"
+      },
+      {
+        "id": "15/33",
+        "heading1": 153,
+        "heading2": 333,
+        "length_ft": 9584,
+        "width_ft": 200,
+        "surface": "CONC/ASPH"
+      }
+    ]
+  },
+  "CYYT": {
+    "airport": "St. John's International Airport",
+    "province": "NL",
+    "declinaison": "17°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 103,
+        "heading2": 283,
+        "length_ft": 8502,
+        "width_ft": 200,
+        "surface": "ASPH"
+      },
+      {
+        "id": "16/34",
+        "heading1": 156,
+        "heading2": 336,
+        "length_ft": 7005,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZUM": {
+    "airport": "Churchill Falls Airport",
+    "province": "NL",
+    "declinaison": "20°W",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 124,
+        "heading2": 304,
+        "length_ft": 5500,
+        "width_ft": 148,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYAU": {
+    "airport": "Liverpool South Shore Regional Airport",
+    "province": "NS",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": 71,
+        "heading2": 251,
+        "length_ft": 3933,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYHZ": {
+    "airport": "Halifax / Stanfield International Airport",
+    "province": "NS",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": 53,
+        "heading2": 233,
+        "length_ft": 10500,
+        "width_ft": 200,
+        "surface": "ASPH/CONC"
+      },
+      {
+        "id": "14/32",
+        "heading1": 143,
+        "heading2": 323,
+        "length_ft": 7700,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYID": {
+    "airport": "Digby / Annapolis Regional Airport",
+    "province": "NS",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 60,
+        "heading2": 240,
+        "length_ft": 3957,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYPD": {
+    "airport": "Port Hawkesbury Airport",
+    "province": "NS",
+    "declinaison": "19°W",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": 109,
+        "heading2": 289,
+        "length_ft": 5000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYQI": {
+    "airport": "Yarmouth Airport",
+    "province": "NS",
+    "declinaison": "17°W",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 59,
+        "heading2": 239,
+        "length_ft": 6002,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "15/33",
+        "heading1": 150,
+        "heading2": 330,
+        "length_ft": 4999,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYQY": {
+    "airport": "Sydney / J.A. Douglas McCurdy Airport",
+    "province": "NS",
+    "declinaison": "17°W",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 63,
+        "heading2": 243,
+        "length_ft": 7070,
+        "width_ft": 200,
+        "surface": "ASPH"
+      },
+      {
+        "id": "36/18",
+        "heading1": 2,
+        "heading2": 182,
+        "length_ft": 5997,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYTN": {
+    "airport": "Trenton Airport",
+    "province": "NS",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 64,
+        "heading2": 244,
+        "length_ft": 5377,
+        "width_ft": 145,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYZX": {
+    "airport": "CFB Greenwood",
+    "province": "NS",
+    "declinaison": "17°W",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 81,
+        "heading2": 261,
+        "length_ft": 7999,
+        "width_ft": 200,
+        "surface": "grooved ASPH"
+      },
+      {
+        "id": "12/30",
+        "heading1": 122,
+        "heading2": 302,
+        "length_ft": 7999,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+    "CYEV": {
+    "province": "NT",
+    "airport": "Inuvik Mike Zubko Airport",
+    "declinaison": "20°E",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": "65",
+        "heading2": "245",
+        "length_ft": 6006,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYFR": {
+    "province": "NT",
+    "airport": "Fort Resolution Airport",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": "126",
+        "heading2": "306",
+        "length_ft": 4001,
+        "width_ft": 98,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYFS": {
+    "province": "NT",
+    "airport": "Fort Simpson Airport",
+    "declinaison": "19°E",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": "137",
+        "heading2": "317",
+        "length_ft": 6000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYGH": {
+    "province": "NT",
+    "airport": "Fort Good Hope Airport",
+    "declinaison": "22°E",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": "70",
+        "heading2": "250",
+        "length_ft": 4434,
+        "width_ft": 99,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYHI": {
+    "province": "NT",
+    "airport": "Ulukhaktok Holman Airport",
+    "declinaison": "18°E",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": "62T",
+        "heading2": "242T",
+        "length_ft": 4300,
+        "width_ft": 99,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYHY": {
+    "province": "NT",
+    "airport": "Hay River / Merlyn Carter Airport",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": "139",
+        "heading2": "319",
+        "length_ft": 6000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+       {
+        "id": "05/23",
+        "heading1": "49",
+        "heading2": "220",
+        "length_ft": 4001,
+        "width_ft": 150,
+        "surface": "GRVL/ASPH"
+      }
+    ]
+  },
+  "CYJF": {
+    "province": "NT",
+    "airport": "Fort Liard Airport",
+    "declinaison": "18°E",
+    "runways": [
+      {
+        "id": "03/21",
+        "heading1": "30",
+        "heading2": "210",
+        "length_ft": 2946,
+        "width_ft": 98,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYJP": {
+    "province": "NT",
+    "airport": "Fort Providence Airport",
+    "declinaison": "18°E",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": "136",
+        "heading2": "316",
+        "length_ft": 2999,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYKD": {
+    "province": "NT",
+    "airport": "Aklavik/Freddie Carmichael Airport",
+    "declinaison": "19°E",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": "137",
+        "heading2": "317",
+        "length_ft": 3002,
+        "width_ft": 75,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYLK": {
+    "province": "NT",
+    "airport": "Lutselk'e Airport",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": "78T",
+        "heading2": "258T",
+        "length_ft": 3003,
+        "width_ft": 103,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYOA": {
+    "province": "NT",
+    "airport": "Ekati Airport",
+    "declinaison": "13°E",
+    "runways": [
+      {
+        "id": "02/20",
+        "heading1": "23T",
+        "heading2": "203T",
+        "length_ft": 6411,
+        "width_ft": 148,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYPC": {
+    "province": "NT",
+    "airport": "Paulatuk (Nora Aliqatchialuk Ruben) Airport",
+    "declinaison": "21°E",
+    "runways": [
+      {
+        "id": "02/20",
+        "heading1": "21T",
+        "heading2": "201T",
+        "length_ft": 4003,
+        "width_ft": 99,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYRA": {
+    "province": "NT",
+    "airport": "Rae Lakes Airport",
+    "declinaison": "17°E",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": "136T",
+        "heading2": "316T",
+        "length_ft": 3000,
+        "width_ft": 98,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYSM": {
+    "province": "NT",
+    "airport": "Fort Smith Airport",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": "117",
+        "heading2": "297",
+        "length_ft": 6001,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+       {
+        "id": "03/21",
+        "heading1": "26",
+        "heading2": "206",
+        "length_ft": 1797,
+        "width_ft": 99,
+        "surface": "GRVL/ASPH"
+      }
+    ]
+  },
+  "CYSY": {
+    "province": "NT",
+    "airport": "Sachs Harbour (David Nasogaluak Jr. Saaryuaq) Airport",
+    "declinaison": "20°E",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": "84T",
+        "heading2": "264T",
+        "length_ft": 4002,
+        "width_ft": 98,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYUB": {
+    "province": "NT",
+    "airport": "Tuktoyaktuk / James Gruben Airport",
+    "declinaison": "19°E",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": "107",
+        "heading2": "287",
+        "length_ft": 4600,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYVL": {
+    "province": "NT",
+    "airport": "Tommy Kochon Airport",
+    "declinaison": "21°E",
+    "runways": [
+      {
+        "id": "17/35",
+        "heading1": "173T",
+        "heading2": "353T",
+        "length_ft": 3935,
+        "width_ft": 98,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYVQ": {
+    "province": "NT",
+    "airport": "Norman Wells Airport",
+    "declinaison": "20°E",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": "97",
+        "heading2": "277",
+        "length_ft": 5998,
+        "width_ft": 150,
+        "surface": "CONC/ASPH"
+      }
+    ]
+  },
+  "CYWJ": {
+    "province": "NT",
+    "airport": "Déline Airport",
+    "declinaison": "21°E",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": "80",
+        "heading2": "260",
+        "length_ft": 3933,
+        "width_ft": 99,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYWY": {
+    "province": "NT",
+    "airport": "Wrigley Airport",
+    "declinaison": "20°E",
+    "runways": [
+      {
+        "id": "11/29",
+        "heading1": "114",
+        "heading2": "294",
+        "length_ft": 3500,
+        "width_ft": 98,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYZF": {
+    "province": "NT",
+    "airport": "Yellowknife International Airport",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": "160",
+        "heading2": "340",
+        "length_ft": 7503,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+       {
+        "id": "10/28",
+        "heading1": "100",
+        "heading2": "280",
+        "length_ft": 5001,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZFM": {
+    "province": "NT",
+    "airport": "Fort Mcpherson Airport",
+    "declinaison": "19°E",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": "124",
+        "heading2": "304",
+        "length_ft": 3934,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CZFN": {
+    "province": "NT",
+    "airport": "Tulita Airport",
+    "declinaison": "20°E",
+    "runways": [
+      {
+        "id": "07/25",
+        "heading1": "65",
+        "heading2": "245",
+        "length_ft": 3935,
+        "width_ft": 99,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYSU": {
+    "airport": "Summerside Airport",
+    "province": "PE",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": 54,
+        "heading2": 234,
+        "length_ft": 8000,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYYG": {
+    "airport": "Charlottetown Airport",
+    "province": "PE",
+    "declinaison": "18°W",
+    "runways": [
+      {
+        "id": "03/21",
+        "heading1": 27,
+        "heading2": 207,
+        "length_ft": 7002,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "10/28",
+        "heading1": 97,
+        "heading2": 277,
+        "length_ft": 7000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYBE": {
+    "airport": "Uranium City Airport",
+    "province": "SK",
+    "declinaison": "13°E",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 62,
+        "heading2": 242,
+        "length_ft": 3935,
+        "width_ft": 100,
+        "surface": "paved"
+      }
+    ]
+  },
+  "CYBU": {
+    "airport": "Nipawin Airport",
+    "province": "SK",
+    "declinaison": "9°E",
+    "runways": [
+      {
+        "id": "03/21",
+        "heading1": 36,
+        "heading2": 216,
+        "length_ft": 2933,
+        "width_ft": 75,
+        "surface": "ASPH"
+      },
+      {
+        "id": "12/30",
+        "heading1": 119,
+        "heading2": 299,
+        "length_ft": 2900,
+        "width_ft": 115,
+        "surface": "GRASS/SNOW"
+      }
+    ]
+  },
+  "CYEN": {
+    "airport": "Estevan Airport",
+    "province": "SK",
+    "declinaison": "8°E",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 82,
+        "heading2": 262,
+        "length_ft": 5003,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "15/33",
+        "heading1": 152,
+        "heading2": 332,
+        "length_ft": 3001,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYHB": {
+    "airport": "Hudson Bay Airport",
+    "province": "SK",
+    "declinaison": "8°E",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 60,
+        "heading2": 240,
+        "length_ft": 5001,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYKC": {
+    "airport": "Collins Bay Airport",
+    "province": "SK",
+    "declinaison": "9°E",
+    "runways": [
+      {
+        "id": "02/20",
+        "heading1": 24,
+        "heading2": 204,
+        "length_ft": 5191,
+        "width_ft": 110,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYKJ": {
+    "airport": "Key Lake Airport",
+    "province": "SK",
+    "declinaison": "10°E",
+    "runways": [
+      {
+        "id": "03/21",
+        "heading1": 33,
+        "heading2": 213,
+        "length_ft": 5281,
+        "width_ft": 178,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYKY": {
+    "airport": "Kindersley Airport",
+    "province": "SK",
+    "declinaison": "12°E",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 78,
+        "heading2": 258,
+        "length_ft": 3507,
+        "width_ft": 75,
+        "surface": "ASPH"
+      },
+      {
+        "id": "17/35",
+        "heading1": 168,
+        "heading2": 348,
+        "length_ft": 2281,
+        "width_ft": 100,
+        "surface": "GRASS"
+      }
+    ]
+  },
+  "CYLJ": {
+    "airport": "Meadow Lake Airport",
+    "province": "SK",
+    "declinaison": "12°E",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 88,
+        "heading2": 268,
+        "length_ft": 5000,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "17/35",
+        "heading1": 168,
+        "heading2": 348,
+        "length_ft": 2297,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYMJ": {
+    "airport": "Moose Jaw Air Vice Marshal C. M. McEwen Airport",
+    "province": "SK",
+    "declinaison": "9°E",
+    "runways": [
+      {
+        "id": "11L/29R",
+        "heading1": 109,
+        "heading2": 289,
+        "length_ft": 8320,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "11R/29L",
+        "heading1": 109,
+        "heading2": 289,
+        "length_ft": 7280,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "03/21",
+        "heading1": 34,
+        "heading2": 214,
+        "length_ft": 3460,
+        "width_ft": 100,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYNL": {
+    "airport": "Points North Landing Airport",
+    "province": "SK",
+    "declinaison": "9°E",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": 156,
+        "heading2": 336,
+        "length_ft": 5848,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYPA": {
+    "airport": "Prince Albert Glass Field",
+    "province": "SK",
+    "declinaison": "10°E",
+    "runways": [
+      {
+        "id": "08/26",
+        "heading1": 80,
+        "heading2": 260,
+        "length_ft": 5001,
+        "width_ft": 148,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYQR": {
+    "airport": "Regina International Airport",
+    "province": "SK",
+    "declinaison": "10°E",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 128,
+        "heading2": 308,
+        "length_ft": 7901,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "08/26",
+        "heading1": 80,
+        "heading2": 260,
+        "length_ft": 6200,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYQV": {
+    "airport": "Yorkton Municipal Airport",
+    "province": "SK",
+    "declinaison": "7°E",
+    "runways": [
+      {
+        "id": "04/22",
+        "heading1": 38,
+        "heading2": 218,
+        "length_ft": 4800,
+        "width_ft": 148,
+        "surface": "ASPH"
+      },
+      {
+        "id": "13/31",
+        "heading1": 128,
+        "heading2": 308,
+        "length_ft": 2984,
+        "width_ft": 98,
+        "surface": "GRVL/ASPH"
+      }
+    ]
+  },
+  "CYQW": {
+    "airport": "North Battleford Airport",
+    "province": "SK",
+    "declinaison": "12°E",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 124,
+        "heading2": 304,
+        "length_ft": 5000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYSF": {
+    "airport": "Stony Rapids Airport",
+    "province": "SK",
+    "declinaison": "11°E",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": 63,
+        "heading2": 243,
+        "length_ft": 5052,
+        "width_ft": 100,
+        "surface": "paved"
+      }
+    ]
+  },
+  "CYVC": {
+    "airport": "La Ronge Airport",
+    "province": "SK",
+    "declinaison": "10°E",
+    "runways": [
+      {
+        "id": "18/36",
+        "heading1": 179,
+        "heading2": 359,
+        "length_ft": 5002,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "11/29",
+        "heading1": 106,
+        "heading2": 286,
+        "length_ft": 2396,
+        "width_ft": 50,
+        "surface": "treated GRVL"
+      }
+    ]
+  },
+  "CYVT": {
+    "airport": "Buffalo Narrows Airport",
+    "province": "SK",
+    "declinaison": "12°E",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": 116,
+        "heading2": 296,
+        "length_ft": 5006,
+        "width_ft": 100,
+        "surface": "ASPH"
+      },
+      {
+        "id": "06/24",
+        "heading1": 64,
+        "heading2": 244,
+        "length_ft": 2297,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYXE": {
+    "airport": "Saskatoon John G. Diefenbaker International Airport",
+    "province": "SK",
+    "declinaison": "11°E",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 90,
+        "heading2": 270,
+        "length_ft": 8300,
+        "width_ft": 148,
+        "surface": "ASPH"
+      },
+      {
+        "id": "15/33",
+        "heading1": 150,
+        "heading2": 330,
+        "length_ft": 6200,
+        "width_ft": 148,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYYN": {
+    "airport": "Swift Current Airport",
+    "province": "SK",
+    "declinaison": "11°E",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": 124,
+        "heading2": 304,
+        "length_ft": 4250,
+        "width_ft": 150,
+        "surface": "ASPH"
+      },
+      {
+        "id": "04/22",
+        "heading1": 34,
+        "heading2": 214,
+        "length_ft": 2495,
+        "width_ft": 50,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYYO": {
+    "airport": "Wynyard / W.B. Needham Field",
+    "province": "SK",
+    "declinaison": "9°E",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": 91,
+        "heading2": 271,
+        "length_ft": 3002,
+        "width_ft": 75,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CZFD": {
+    "airport": "Fond-du-Lac Airport",
+    "province": "SK",
+    "declinaison": "12°E",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": 104,
+        "heading2": 284,
+        "length_ft": 3805,
+        "width_ft": 75,
+        "surface": "paved"
+      }
+    ]
+  },
+  "CZPO": {
+    "airport": "Pinehouse Lake Airport",
+    "province": "SK",
+    "declinaison": "11°E",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": 160,
+        "heading2": 340,
+        "length_ft": 2998,
+        "width_ft": 65,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CZWL": {
+    "airport": "Wollaston Lake Airport",
+    "province": "SK",
+    "declinaison": "8°E",
+    "runways": [
+      {
+        "id": "17/35",
+        "heading1": 166,
+        "heading2": 346,
+        "length_ft": 3793,
+        "width_ft": 75,
+        "surface": "paved"
+      }
+    ]
+  },
+  "CYAB": {
+    "airport": "Arctic Bay Airport",
+    "province": "NU",
+    "declinaison": "27°W",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": "128T",
+        "heading2": "308T",
+        "length_ft": 3935,
+        "width_ft": 98,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYBB": {
+    "airport": "Kugaaruk Airport",
+    "province": "NU",
+    "declinaison": "14°W",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": "49T",
+        "heading2": "229T",
+        "length_ft": 5000,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYBK": {
+    "airport": "Baker Lake Airport",
+    "province": "NU",
+    "declinaison": "3°W",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": "162T",
+        "heading2": "342T",
+        "length_ft": 4195,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYCB": {
+    "airport": "Cambridge Bay Airport",
+    "province": "NU",
+    "declinaison": "7°E",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": "127T",
+        "heading2": "307T",
+        "length_ft": 5076,
+        "width_ft": 150,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYCO": {
+    "airport": "Kugluktuk Airport",
+    "province": "NU",
+    "declinaison": "16°E",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": "121T",
+        "heading2": "301T",
+        "length_ft": 5502,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYCS": {
+    "airport": "Chesterfield Inlet Airport",
+    "province": "NU",
+    "declinaison": "8°W",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": "124T",
+        "heading2": "304T",
+        "length_ft": 3600,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYCY": {
+    "airport": "Clyde River Airport",
+    "province": "NU",
+    "declinaison": "32°W",
+    "runways": [
+      {
+        "id": "02/20",
+        "heading1": "18T",
+        "heading2": "198T",
+        "length_ft": 3501,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYEK": {
+    "airport": "Arviat Airport",
+    "province": "NU",
+    "declinaison": "4°W",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": "149T",
+        "heading2": "329T",
+        "length_ft": 4000,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYEU": {
+    "airport": "Eureka Airport",
+    "province": "NU",
+    "declinaison": "42°W",
+    "runways": [
+      {
+        "id": "10/28",
+        "heading1": "104T",
+        "heading2": "284T",
+        "length_ft": 4802,
+        "width_ft": 150,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYFB": {
+    "airport": "Iqaluit Airport",
+    "province": "NU",
+    "declinaison": "25°W",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": "161",
+        "heading2": "341",
+        "length_ft": 8605,
+        "width_ft": 200,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYGT": {
+    "airport": "Igloolik Airport",
+    "province": "NU",
+    "declinaison": "24°W",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": "146T",
+        "heading2": "326T",
+        "length_ft": 4095,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYGZ": {
+    "airport": "Grise Fiord Airport",
+    "province": "NU",
+    "declinaison": "34°W",
+    "runways": [
+      {
+        "id": "14/32",
+        "heading1": "138T",
+        "heading2": "318T",
+        "length_ft": 1675,
+        "width_ft": 75,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYHK": {
+    "airport": "Gjoa Haven Airport",
+    "province": "NU",
+    "declinaison": "6°W",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": "127T",
+        "heading2": "307T",
+        "length_ft": 4400,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYIO": {
+    "airport": "Pond Inlet Airport",
+    "province": "NU",
+    "declinaison": "32°W",
+    "runways": [
+      {
+        "id": "02/20",
+        "heading1": "22T",
+        "heading2": "202T",
+        "length_ft": 4006,
+        "width_ft": 98,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYLC": {
+    "airport": "Kimmirut Airport",
+    "province": "NU",
+    "declinaison": "23°W",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": "151",
+        "heading2": "331",
+        "length_ft": 1899,
+        "width_ft": 75,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYLT": {
+    "airport": "Alert Airport",
+    "province": "NU",
+    "declinaison": "44°W",
+    "runways": [
+      {
+        "id": "05/23",
+        "heading1": "48T",
+        "heading2": "228T",
+        "length_ft": 5500,
+        "width_ft": 150,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYRB": {
+    "airport": "Resolute Bay Airport",
+    "province": "NU",
+    "declinaison": "17°W",
+    "runways": [
+      {
+        "id": "17/35",
+        "heading1": "167T",
+        "heading2": "347T",
+        "length_ft": 6504,
+        "width_ft": 197,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYRT": {
+    "airport": "Rankin Inlet Airport",
+    "province": "NU",
+    "declinaison": "6°W",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": "129T",
+        "heading2": "309T",
+        "length_ft": 6000,
+        "width_ft": 150,
+        "surface": "ASPH"
+      }
+    ]
+  },
+  "CYSK": {
+    "airport": "Sanikiluaq Airport",
+    "province": "NU",
+    "declinaison": "16°W",
+    "runways": [
+      {
+        "id": "09/27",
+        "heading1": "86",
+        "heading2": "266",
+        "length_ft": 3807,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYTE": {
+    "airport": "Kinngait Airport",
+    "province": "NU",
+    "declinaison": "22°W",
+    "runways": [
+      {
+        "id": "13/31",
+        "heading1": "127T",
+        "heading2": "307T",
+        "length_ft": 3988,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYUT": {
+    "airport": "Naujaat Airport",
+    "province": "NU",
+    "declinaison": "17°W",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": "161T",
+        "heading2": "341T",
+        "length_ft": 3400,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYUX": {
+    "airport": "Sanirajak Airport",
+    "province": "NU",
+    "declinaison": "23°W",
+    "runways": [
+      {
+        "id": "12/30",
+        "heading1": "124T",
+        "heading2": "304T",
+        "length_ft": 5410,
+        "width_ft": 150,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYVM": {
+    "airport": "Qikiqtarjuaq Airport",
+    "province": "NU",
+    "declinaison": "30°W",
+    "runways": [
+      {
+        "id": "03/21",
+        "heading1": "33T",
+        "heading2": "213T",
+        "length_ft": 3803,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYXN": {
+    "airport": "Whale Cove Airport",
+    "province": "NU",
+    "declinaison": "4°W",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": "150T",
+        "heading2": "330T",
+        "length_ft": 3937,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYXP": {
+    "airport": "Pangnirtung Airport",
+    "province": "NU",
+    "declinaison": "29°W",
+    "runways": [
+      {
+        "id": "06/24",
+        "heading1": "62T",
+        "heading2": "242T",
+        "length_ft": 2920,
+        "width_ft": 98,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYYH": {
+    "airport": "Taloyoak Airport",
+    "province": "NU",
+    "declinaison": "9°W",
+    "runways": [
+      {
+        "id": "15/33",
+        "heading1": "151T",
+        "heading2": "331T",
+        "length_ft": 4009,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  },
+  "CYZS": {
+    "airport": "Coral Harbour Airport",
+    "province": "NU",
+    "declinaison": "17°W",
+    "runways": [
+      {
+        "id": "16/34",
+        "heading1": "155T",
+        "heading2": "335T",
+        "length_ft": 5006,
+        "width_ft": 100,
+        "surface": "GRVL"
+      }
+    ]
+  }
+}
+ 
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  overflow: hidden;
+}
+
+.background {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('background_carte.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px) brightness(0.5);
+  z-index: -1;
+}
+
+/* logo */
+.logo {
+  position: fixed;
+  bottom: 10px;
+  left: 15px;
+  width: 90px;
+  opacity: 0.9;
+  z-index: 10;
+}
+
+/* disposition */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 30px;
+}
+
+.left-panel {
+  width: 45%;
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.inputs label {
+  font-size: 14px;
+}
+
+.inputs input, .inputs select, .inputs button {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.3);
+  color: white;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.inputs button {
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+}
+
+.results {
+  margin-top: 15px;
+  text-align: left;
+  font-size: 15px;
+  padding: 10px;
+}
+
+/* --- Section droite (vue 3D simulée) --- */
+.right-panel {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#view3d {
+  background: linear-gradient(to top, #3a3a3a 40%, #87ceeb 100%);
+  border: 2px solid rgba(255,255,255,0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.caption {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #aee3ff;
+  text-shadow: 0 0 5px #000;
+}
+
+
+
+
+
+
+
+
+
