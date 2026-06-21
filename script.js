@@ -209,13 +209,13 @@ async function handleAutoMode() {
         const diff = ((windMagAuto - o.heading + 540) % 360) - 180;
         const diffRad = toRad(diff);
 
-        // Vent de face = vent moyen
-        const ventFace = ventSpeed * Math.cos(diffRad);
+      // Vent de face = vent moyen
+const ventFace = ventSpeed * Math.cos(diffRad);
 
-        // Vent travers = rafale si disponible, sinon vent moyen
-        const ventTravers = (gustValue > 0 ? gustValue : ventSpeed) * Math.sin(diffRad);
+// Vent travers = rafale si disponible, sinon vent moyen
+const ventTravers = (gustValue > 0 ? gustValue : ventSpeed) * Math.sin(diffRad);
 
-        const ventTraversGust = ventTravers;
+const ventTraversGust = ventTravers;
         const traversDir = ventTravers > 0 ? "droite" : ventTravers < 0 ? "gauche" : "";
 
         const tropCourt = (rw.length_ft < limits.minLength || rw.width_ft < limits.minWidth);
@@ -419,49 +419,92 @@ async function fetchTafRaw(icao) {
  *  {type: 'FM'|'BECMG'|'TEMPO'|'PROB'|'BASE', time: 'hhmm' or null, token: '...'}
  */
 function tokenizeTaf(tafRaw) {
-  // normalize whitespace
   const txt = tafRaw.replace(/\r?\n/g, ' ').replace(/\s+/g, ' ').trim();
-  // split by spaces
   const parts = txt.split(' ');
+
   const tokens = [];
-  let lastMarker = { type: 'BASE', time: null }; // header base
-  for (let p of parts) {
-    // markers
-   // FM151230 → FM + JJHHMM
+  let lastMarker = { type: 'BASE' };
+
+  for (let i = 0; i < parts.length; i++) {
+    const p = parts[i];
+
+    // FM151230
     if (/^FM\d{6}$/i.test(p)) {
-    lastMarker = { type: 'FM', full: p.slice(2) }; // "151230"
-    tokens.push({ marker: lastMarker, text: p });
-    continue;
+      lastMarker = {
+        type: 'FM',
+        full: p.slice(2)
+      };
+
+      tokens.push({ marker: lastMarker, text: p });
+      continue;
     }
+
+    // BECMG
     if (/^BECMG$/i.test(p)) {
-      lastMarker = { type: 'BECMG', time: null };
+      lastMarker = { type: 'BECMG' };
+
+      // regarder si le prochain token est une période
+      if (parts[i + 1] && /^\d{4}\/\d{4}$/.test(parts[i + 1])) {
+        lastMarker.period = parts[i + 1];
+      }
+
       tokens.push({ marker: lastMarker, text: p });
       continue;
     }
+
+    // TEMPO
     if (/^TEMPO$/i.test(p)) {
-      lastMarker = { type: 'TEMPO', time: null };
+      lastMarker = { type: 'TEMPO' };
+
+      if (parts[i + 1] && /^\d{4}\/\d{4}$/.test(parts[i + 1])) {
+        lastMarker.period = parts[i + 1];
+      }
+
       tokens.push({ marker: lastMarker, text: p });
       continue;
     }
+
+    // PROB30 / PROB40
     if (/^PROB(?:30|40)?$/i.test(p)) {
-      // some TAFs use PROB30 or PROB40
-      lastMarker = { type: p.toUpperCase(), time: null };
+      lastMarker = {
+        type: p.toUpperCase()
+      };
+
+      if (parts[i + 1] && /^\d{4}\/\d{4}$/.test(parts[i + 1])) {
+        lastMarker.period = parts[i + 1];
+      }
+
       tokens.push({ marker: lastMarker, text: p });
       continue;
     }
-    // time-range like 1412/1512 (we just push as header kind)
+
+    // période
     if (/^\d{4}\/\d{4}$/.test(p)) {
-      tokens.push({ marker: { type: 'PERIOD', time: p }, text: p });
+      tokens.push({
+        marker: lastMarker,
+        type: 'PERIOD',
+        text: p
+      });
       continue;
     }
-    // wind token
+
+    // vent
     if (/^(VRB|\d{3})\d{2}(G\d{2})?KT$/i.test(p)) {
-      tokens.push({ marker: lastMarker, type: 'WIND', text: p });
+      tokens.push({
+        marker: lastMarker,
+        type: 'WIND',
+        text: p
+      });
       continue;
     }
-    // otherwise generic token - keep as info under lastMarker
-    tokens.push({ marker: lastMarker, type: 'OTHER', text: p });
+
+    tokens.push({
+      marker: lastMarker,
+      type: 'OTHER',
+      text: p
+    });
   }
+
   return tokens;
 }
 
@@ -536,6 +579,19 @@ function selectTafWindsForHour(tokens, dayHHMM) {
 
   return { baseWinds };
 }
+
+function periodContains(targetDayHHMM, periodStr) {
+  if (!periodStr) return false;
+
+  const [start, end] = periodStr.split('/');
+
+  const startVal = parseInt(start.padEnd(6, '0'));
+  const endVal = parseInt(end.padEnd(6, '0'));
+  const targetVal = parseInt(targetDayHHMM);
+
+  return targetVal >= startVal && targetVal <= endVal;
+}
+
 /**
  * Calcul du pire cas pour une piste donnée
  * - exclut vent arrière
@@ -1088,6 +1144,8 @@ calcBtn.addEventListener('click', async () => {
 
 // ensure roulette draws initially
 drawAll();
+
+
 
 
 
