@@ -678,7 +678,18 @@ async function loadAndComputeTaf(icao, dayHHMM, airport) {
   const tokens = tokenizeTaf(tafRaw);
   const { baseWinds } = selectTafWindsForHour(tokens, dayHHMM);
 
-  const windObjs = baseWinds.map(b => parseWindToken(b.token)).filter(Boolean);
+  const windObjs = baseWinds
+  .map(b => {
+    const parsed = parseWindToken(b.token);
+    if (!parsed) return null;
+
+    return {
+      ...parsed,
+      sourceMarker: b.marker,
+      sourceToken: b.token
+    };
+  })
+  .filter(Boolean);
 
   const declStr = airport?.declinaison || "";
   const conv = (trueDir) => isNaN(trueDir) ? NaN : convertTrueToMag(trueDir, declStr);
@@ -702,11 +713,28 @@ async function loadAndComputeTaf(icao, dayHHMM, airport) {
         if (comps.head < 0) continue;
 
         const isWorse = (comps.head < worstHead) || (Math.abs(comps.cross) > Math.abs(worstCross));
-        if (isWorse || worstHead === -Infinity) {
+        const severity =
+        Math.abs(comps.cross) * 100 - comps.head;
+
+        const currentSeverity =
+        Math.abs(worstCross) * 100 - worstHead;
+
+        if (
+          worstHead === -Infinity ||
+          severity > currentSeverity
+          ) {
           worstHead = comps.head;
           worstCross = comps.cross;
-          worstSource = { token: w, comps, windDirMag: comps.dir ?? windMagDir, sp: w.speed };
-        }
+
+          worstSource = {
+          token: w.sourceToken,
+          marker: w.sourceMarker,
+          comps,
+          windDirMag: comps.dir ?? windMagDir,
+          sp: w.speed,
+          gust: w.gust
+          };
+         }
       }
 
       // si tous vents sont arrière → ignore
