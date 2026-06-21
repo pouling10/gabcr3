@@ -162,7 +162,7 @@ async function handleAutoMode() {
   const gustValue = parseFloat(gustInput.value) || 0;
   const aircraftModel = document.getElementById("aircraftSelect").value;
   const limits = aircraftLimits[aircraftModel];
-  const currentWindForCalc = gustValue > ventSpeed ? gustValue : ventSpeed;
+
 
   airportResult.innerHTML = "";
 
@@ -209,9 +209,13 @@ async function handleAutoMode() {
         const diff = ((windMagAuto - o.heading + 540) % 360) - 180;
         const diffRad = toRad(diff);
 
-        const ventFace = currentWindForCalc * Math.cos(diffRad);
-        const ventTravers = currentWindForCalc * Math.sin(diffRad);
-        const ventTraversGust = gustValue ? gustValue * Math.sin(diffRad) : ventTravers;
+        // Vent de face = vent moyen
+        const ventFace = ventSpeed * Math.cos(diffRad);
+
+        // Vent travers = rafale si disponible, sinon vent moyen
+        const ventTravers = (gustValue > 0 ? gustValue : ventSpeed) * Math.sin(diffRad);
+
+        const ventTraversGust = ventTravers;
         const traversDir = ventTravers > 0 ? "droite" : ventTravers < 0 ? "gauche" : "";
 
         const tropCourt = (rw.length_ft < limits.minLength || rw.width_ft < limits.minWidth);
