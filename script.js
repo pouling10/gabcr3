@@ -813,34 +813,76 @@ document.getElementById('loadTafBtn').addEventListener('click', async () => {
     console.log("PIRE CAS :", JSON.stringify(tafRes.tafWorst, null, 2));
     status.textContent = "TAF Loaded";
 
-    const tafRaw = tafRes.tafRaw;
-    const tafLines = tafRaw.split(/\r?\n/);
-    const targetHHMM = dayHHMM.slice(2,6); // ex: "1735"
-    let highlightStarted = false;
+   const tafRaw = tafRes.tafRaw;
 
-    // Création du texte surligné
-    const highlightedTaf = tafLines.map(line => {
-      const fmMatch = line.match(/FM(\d{4})/);
-      if (fmMatch) {
-        if (fmMatch[1] <= targetHHMM) {
-          highlightStarted = true;
-          return `<span style="background:yellow;color:black;">${line}</span>`;
-        } else {
-          highlightStarted = false;
-        }
-      }
+// On récupère le groupe de vent retenu
+const activeWindToken =
+  tafRes.tafWorst?.token ||
+  tafRes.windObjs?.[0]?.sourceToken ||
+  null;
 
-      if (highlightStarted && /^\s*(BECMG|TEMPO|PROB)/.test(line)) {
-        return `<span style="background:yellow;color:black;">${line}</span>`;
-      }
+let highlightedTaf = tafRaw;
 
-      return line;
-    }).join('<br>');
+if (activeWindToken) {
 
-    // Affichage dans l'UI
-    airportResult.innerHTML = `<pre style="white-space:pre-wrap;font-size:12px;
-      background:rgba(0,0,0,0.2); padding:6px; border-radius:6px; margin-top:6px;">
-      ${highlightedTaf}</pre>`;
+  highlightedTaf = tafRaw.replace(
+    activeWindToken,
+    `<span style="
+      background:#ffff00;
+      color:#000;
+      font-weight:bold;
+      padding:2px 4px;
+      border-radius:3px;
+    ">${activeWindToken}</span>`
+  );
+
+  // Highlight TEMPO/BECMG/PROB associé
+  const marker = tafRes.tafWorst?.marker;
+
+  if (marker?.type === "TEMPO" && marker.period) {
+    highlightedTaf = highlightedTaf.replace(
+      `TEMPO ${marker.period}`,
+      `<span style="background:#ffd54f;color:#000;font-weight:bold;">TEMPO ${marker.period}</span>`
+    );
+  }
+
+  if (marker?.type === "BECMG" && marker.period) {
+    highlightedTaf = highlightedTaf.replace(
+      `BECMG ${marker.period}`,
+      `<span style="background:#81d4fa;color:#000;font-weight:bold;">BECMG ${marker.period}</span>`
+    );
+  }
+
+  if (
+    marker?.type &&
+    marker.type.startsWith("PROB") &&
+    marker.period
+  ) {
+    highlightedTaf = highlightedTaf.replace(
+      `${marker.type} ${marker.period}`,
+      `<span style="background:#ef9a9a;color:#000;font-weight:bold;">${marker.type} ${marker.period}</span>`
+    );
+  }
+}
+
+airportResult.innerHTML = `
+<div style="
+  background:rgba(0,0,0,0.25);
+  padding:8px;
+  border-radius:8px;
+  margin-top:8px;
+">
+  <strong>TAF BRUT</strong><br><br>
+  <div style="
+    white-space:pre-wrap;
+    font-family:monospace;
+    font-size:12px;
+    line-height:1.5;
+  ">
+    ${highlightedTaf}
+  </div>
+</div>
+`;
 
   } catch (err) {
     console.error(err);
