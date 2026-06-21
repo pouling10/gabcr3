@@ -807,10 +807,10 @@ document.getElementById('loadTafBtn').addEventListener('click', async () => {
 
     // Charger le TAF via ta fonction existante
     const tafRes = await loadAndComputeTaf(icao, dayHHMM, airport);
-    console.log("VENTS RETENUS :", tafRes.windObjs);
-    console.log("PISTES :", tafRes.runwayResults);
-    console.log("MEILLEURES :", tafRes.bestRunways);
-    console.log("PIRE CAS :", tafRes.tafWorst);
+    console.log("VENTS RETENUS :", JSON.stringify(tafRes.windObjs, null, 2));
+    console.log("PISTES :", JSON.stringify(tafRes.runwayResults, null, 2));
+    console.log("MEILLEURES :", JSON.stringify(tafRes.bestRunways, null, 2));
+    console.log("PIRE CAS :", JSON.stringify(tafRes.tafWorst, null, 2));
     status.textContent = "TAF Loaded";
 
     const tafRaw = tafRes.tafRaw;
