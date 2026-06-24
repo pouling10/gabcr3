@@ -989,104 +989,146 @@ document.getElementById('loadTafBtn').addEventListener('click', async () => {
 
     if (!tafRes) throw new Error("TAF computation failed");
 
-    console.log("VENTS RETENUS :", JSON.stringify(tafRes.windObjs, null, 2));
-    console.log("PISTES :", JSON.stringify(tafRes.runwayResults, null, 2));
-    console.log("MEILLEURES :", JSON.stringify(tafRes.bestRunways, null, 2));
-    console.log("PIRE CAS :", JSON.stringify(tafRes.tafWorst, null, 2));
+    console.log("VENTS RETENUS :", tafRes.windObjs);
+    console.log("PIRE CAS :", tafRes.tafWorst);
 
     status.textContent = "TAF Loaded";
 
     const tafRaw = tafRes.tafRaw || "";
     let highlightedTaf = tafRaw;
 
-    // Helper safe replace all
+    // -----------------------------
+    // HELPERS
+    // -----------------------------
     const replaceAll = (text, token, replacement) => {
       if (!token) return text;
       return text.split(token).join(replacement);
     };
 
-    try {
-      const activeWindToken =
-        tafRes.tafWorst?.token ||
-        tafRes.windObjs?.[0]?.sourceToken ||
-        null;
+    // -----------------------------
+    // OPERATIONAL WORST (FM/BECMG/TEMPO ONLY)
+    // -----------------------------
+    const operationalWindToken =
+      tafRes.tafWorst?.operational?.windToken ||
+      tafRes.windObjs?.[0]?.sourceToken ||
+      null;
 
-      const activeCeilingToken = tafRes.worstCeiling?.token || null;
-      const activeVisibilityToken = tafRes.worstVisibility?.token || null;
-      const activeWeatherToken = tafRes.worstWeather?.token || null;
+    const operationalCeilingToken =
+      tafRes.tafWorst?.operational?.ceilingToken || null;
 
-      // Vent
-      if (activeWindToken) {
-        highlightedTaf = replaceAll(
-          highlightedTaf,
-          activeWindToken,
-          `<span style="background:#ffff00;color:#000;font-weight:bold;padding:2px 4px;border-radius:3px;">${activeWindToken}</span>`
-        );
-      }
+    const operationalVisibilityToken =
+      tafRes.tafWorst?.operational?.visibilityToken || null;
 
-      // Plafond
-      if (activeCeilingToken) {
-        highlightedTaf = replaceAll(
-          highlightedTaf,
-          activeCeilingToken,
-          `<span style="background:#ff4444;color:white;font-weight:bold;padding:2px 4px;border-radius:3px;">${activeCeilingToken}</span>`
-        );
-      }
+    const operationalWeatherToken =
+      tafRes.tafWorst?.operational?.weatherToken || null;
 
-      // Visibilité
-      if (activeVisibilityToken) {
-        highlightedTaf = replaceAll(
-          highlightedTaf,
-          activeVisibilityToken,
-          `<span style="background:#ff9800;color:black;font-weight:bold;padding:2px 4px;border-radius:3px;">${activeVisibilityToken}</span>`
-        );
-      }
+    // -----------------------------
+    // RISK (PROB ONLY)
+    // -----------------------------
+    const risk = tafRes.tafWorst?.risk || null;
 
-      // Météo
-      if (activeWeatherToken) {
-        highlightedTaf = replaceAll(
-          highlightedTaf,
-          activeWeatherToken,
-          `<span style="background:#9c27b0;color:white;font-weight:bold;padding:2px 4px;border-radius:3px;">${activeWeatherToken}</span>`
-        );
-      }
+    const riskToken = risk?.token || null;
 
-      const marker = tafRes.tafWorst?.marker;
-
-      if (marker?.type === "TEMPO" && marker.period) {
-        highlightedTaf = replaceAll(
-          highlightedTaf,
-          `TEMPO ${marker.period}`,
-          `<span style="background:#ffd54f;color:#000;font-weight:bold;">TEMPO ${marker.period}</span>`
-        );
-      }
-
-      if (marker?.type === "BECMG" && marker.period) {
-        highlightedTaf = replaceAll(
-          highlightedTaf,
-          `BECMG ${marker.period}`,
-          `<span style="background:#81d4fa;color:#000;font-weight:bold;">BECMG ${marker.period}</span>`
-        );
-      }
-
-      if (marker?.type?.startsWith("PROB") && marker.period) {
-        highlightedTaf = replaceAll(
-          highlightedTaf,
-          `${marker.type} ${marker.period}`,
-          `<span style="background:#ef9a9a;color:#000;font-weight:bold;">${marker.type} ${marker.period}</span>`
-        );
-      }
-
-    } catch (highlightErr) {
-      console.warn("Highlight error:", highlightErr);
+    // -----------------------------
+    // OPERATIONAL HIGHLIGHT
+    // -----------------------------
+    if (operationalWindToken) {
+      highlightedTaf = replaceAll(
+        highlightedTaf,
+        operationalWindToken,
+        `<span style="background:#ffff00;color:#000;font-weight:bold;padding:2px 4px;border-radius:3px;">${operationalWindToken}</span>`
+      );
     }
 
+    if (operationalCeilingToken) {
+      highlightedTaf = replaceAll(
+        highlightedTaf,
+        operationalCeilingToken,
+        `<span style="background:#ff4444;color:white;font-weight:bold;padding:2px 4px;border-radius:3px;">${operationalCeilingToken}</span>`
+      );
+    }
+
+    if (operationalVisibilityToken) {
+      highlightedTaf = replaceAll(
+        highlightedTaf,
+        operationalVisibilityToken,
+        `<span style="background:#ff9800;color:black;font-weight:bold;padding:2px 4px;border-radius:3px;">${operationalVisibilityToken}</span>`
+      );
+    }
+
+    if (operationalWeatherToken) {
+      highlightedTaf = replaceAll(
+        highlightedTaf,
+        operationalWeatherToken,
+        `<span style="background:#9c27b0;color:white;font-weight:bold;padding:2px 4px;border-radius:3px;">${operationalWeatherToken}</span>`
+      );
+    }
+
+    // -----------------------------
+    // RISK (PROB) HIGHLIGHT
+    // -----------------------------
+    if (riskToken) {
+      highlightedTaf = replaceAll(
+        highlightedTaf,
+        riskToken,
+        `<span style="
+          background:rgba(156,39,176,0.25);
+          border:1px dashed #9c27b0;
+          color:#9c27b0;
+          font-weight:bold;
+          padding:2px 4px;
+          border-radius:3px;
+        ">${riskToken}</span>`
+      );
+    }
+
+    // -----------------------------
+    // TEMPO / BECMG / PROB MARKERS
+    // -----------------------------
+    const marker = tafRes.tafWorst?.marker;
+
+    if (marker?.type === "TEMPO" && marker.period) {
+      highlightedTaf = replaceAll(
+        highlightedTaf,
+        `TEMPO ${marker.period}`,
+        `<span style="background:#ffd54f;color:#000;font-weight:bold;">TEMPO ${marker.period}</span>`
+      );
+    }
+
+    if (marker?.type === "BECMG" && marker.period) {
+      highlightedTaf = replaceAll(
+        highlightedTaf,
+        `BECMG ${marker.period}`,
+        `<span style="background:#81d4fa;color:#000;font-weight:bold;">BECMG ${marker.period}</span>`
+      );
+    }
+
+    if (marker?.type?.startsWith("PROB") && marker.period) {
+      // seulement visual, pas operational
+      highlightedTaf = replaceAll(
+        highlightedTaf,
+        `${marker.type} ${marker.period}`,
+        `<span style="background:rgba(156,39,176,0.15);color:#9c27b0;font-weight:bold;">${marker.type} ${marker.period}</span>`
+      );
+    }
+
+    // -----------------------------
+    // OUTPUT
+    // -----------------------------
     airportResult.innerHTML = `
       <div style="background:rgba(0,0,0,0.25);padding:8px;border-radius:8px;margin-top:8px;">
+
         <strong>TAF BRUT</strong><br><br>
-        <div style="white-space:pre-wrap;font-family:monospace;font-size:12px;line-height:1.5;">
+
+        <div style="
+          white-space:pre-wrap;
+          font-family:monospace;
+          font-size:12px;
+          line-height:1.5;
+        ">
           ${highlightedTaf}
         </div>
+
       </div>
     `;
 
