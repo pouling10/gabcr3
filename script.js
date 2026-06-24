@@ -670,6 +670,72 @@ function componentsFromWind(windObj, runwayHeading) {
   }
 }
 
+function ceilingSeverity(token) {
+
+  const m = token.match(/(OVC|BKN)(\d{3})/);
+
+  if (!m) return null;
+
+  const type = m[1];
+  const height = parseInt(m[2], 10);
+
+  return {
+    token,
+    score: (type === "OVC" ? 10000 : 5000) - height
+  };
+}
+function visibilitySeverity(token) {
+
+  const m = token.match(/^(\d+)SM$/);
+
+  if (!m) return null;
+
+  const vis = parseInt(m[1], 10);
+
+  return {
+    token,
+    score: 100 - vis
+  };
+}
+function weatherSeverity(token) {
+
+  const checks = [
+    ["+TSRA",130],
+    ["TSRA",120],
+    ["VCTS",110],
+    ["TS",100],
+    ["FZRA",95],
+    ["FZDZ",90],
+    ["FG",85],
+    ["+SN",80],
+    ["SN",75],
+    ["-SN",70],
+    ["+RA",65],
+    ["RA",60],
+    ["-RA",55],
+    ["+SHRA",50],
+    ["SHRA",45],
+    ["-SHRA",40],
+    ["+DZ",35],
+    ["DZ",30],
+    ["-DZ",25],
+    ["BR",20]
+  ];
+
+  let highest = null;
+
+  for (const [code, score] of checks) {
+
+    if (token.includes(code)) {
+
+      if (highest === null || score > highest) {
+        highest = score;
+      }
+    }
+  }
+
+  return highest;
+}
 /**
  * Main TAF processing function
  */
@@ -691,10 +757,113 @@ async function loadAndComputeTaf(icao, dayHHMM, airport) {
   })
   .filter(Boolean);
 
+  let worstCeiling = null;
+  let worstVisibility = null;
+  let worstWeather = null;
+
   const declStr = airport?.declinaison || "";
   const conv = (trueDir) => isNaN(trueDir) ? NaN : convertTrueToMag(trueDir, declStr);
 
   const runwayResults = [];
+
+  // ==========================
+// Analyse météo active
+// ==========================
+
+const activeTokens = [];
+
+for (const t of tokens) {
+
+  let active = false;
+
+  if (
+    t.marker?.type === "FM" &&
+    t.marker.full
+  ) {
+
+    const fmTime =
+      parseInt(t.marker.full, 10);
+
+    if (fmTime <= parseInt(dayHHMM, 10)) {
+      active = true;
+    }
+  }
+
+  else if (
+    t.marker?.period &&
+    periodContains(dayHHMM, t.marker.period)
+  ) {
+    active = true;
+  }
+
+  if (active) {
+    activeTokens.push(t);
+  }
+}
+
+// --- pire plafond
+for (const t of activeTokens) {
+
+  const c = ceilingSeverity(t.text);
+
+  if (
+    c &&
+    (
+      !worstCeiling ||
+      c.score > worstCeiling.score
+    )
+  ) {
+
+    worstCeiling = {
+      token: t.text,
+      marker: t.marker,
+      score: c.score
+    };
+  }
+}
+
+// --- pire visibilité
+for (const t of activeTokens) {
+
+  const v = visibilitySeverity(t.text);
+
+  if (
+    v &&
+    (
+      !worstVisibility ||
+      v.score > worstVisibility.score
+    )
+  ) {
+
+    worstVisibility = {
+      token: t.text,
+      marker: t.marker,
+      score: v.score
+    };
+  }
+}
+
+// --- pire phénomène météo
+for (const t of activeTokens) {
+
+  const score =
+    weatherSeverity(t.text);
+
+  if (
+    score &&
+    (
+      !worstWeather ||
+      score > worstWeather.score
+    )
+  ) {
+
+    worstWeather = {
+      token: t.text,
+      marker: t.marker,
+      score
+    };
+  }
+}
 
   for (const rw of airport.runways) {
     for (const head of [rw.heading1, rw.heading2]) {
@@ -767,7 +936,16 @@ async function loadAndComputeTaf(icao, dayHHMM, airport) {
     if (!tafWorst || Math.abs(r.worstSource.comps.cross) > Math.abs(tafWorst.comps.cross)) tafWorst = r.worstSource;
   }
 
-  return { tafRaw, windObjs, runwayResults, bestRunways, tafWorst };
+  return {
+  tafRaw,
+  windObjs,
+  runwayResults,
+  bestRunways,
+  tafWorst,
+  worstCeiling,
+  worstVisibility,
+  worstWeather
+};
 }
 /**
  * Public handler tied to the "Load TAF" UI:
@@ -798,91 +976,119 @@ document.getElementById('loadTafBtn').addEventListener('click', async () => {
   try {
     const resp = await fetch('./airports.json', { cache: 'no-store' });
     if (!resp.ok) throw new Error('airports.json not found');
+
     const airports = await resp.json();
     const airport = airports[icao];
+
     if (!airport) {
       status.textContent = `Airport ${icao} not found in DB`;
       return;
     }
 
-    // Charger le TAF via ta fonction existante
     const tafRes = await loadAndComputeTaf(icao, dayHHMM, airport);
+
+    if (!tafRes) throw new Error("TAF computation failed");
+
     console.log("VENTS RETENUS :", JSON.stringify(tafRes.windObjs, null, 2));
     console.log("PISTES :", JSON.stringify(tafRes.runwayResults, null, 2));
     console.log("MEILLEURES :", JSON.stringify(tafRes.bestRunways, null, 2));
     console.log("PIRE CAS :", JSON.stringify(tafRes.tafWorst, null, 2));
+
     status.textContent = "TAF Loaded";
 
-   const tafRaw = tafRes.tafRaw;
+    const tafRaw = tafRes.tafRaw || "";
+    let highlightedTaf = tafRaw;
 
-// On récupère le groupe de vent retenu
-const activeWindToken =
-  tafRes.tafWorst?.token ||
-  tafRes.windObjs?.[0]?.sourceToken ||
-  null;
+    // Helper safe replace all
+    const replaceAll = (text, token, replacement) => {
+      if (!token) return text;
+      return text.split(token).join(replacement);
+    };
 
-let highlightedTaf = tafRaw;
+    try {
+      const activeWindToken =
+        tafRes.tafWorst?.token ||
+        tafRes.windObjs?.[0]?.sourceToken ||
+        null;
 
-if (activeWindToken) {
+      const activeCeilingToken = tafRes.worstCeiling?.token || null;
+      const activeVisibilityToken = tafRes.worstVisibility?.token || null;
+      const activeWeatherToken = tafRes.worstWeather?.token || null;
 
-  highlightedTaf = tafRaw.replace(
-    activeWindToken,
-    `<span style="
-      background:#ffff00;
-      color:#000;
-      font-weight:bold;
-      padding:2px 4px;
-      border-radius:3px;
-    ">${activeWindToken}</span>`
-  );
+      // Vent
+      if (activeWindToken) {
+        highlightedTaf = replaceAll(
+          highlightedTaf,
+          activeWindToken,
+          `<span style="background:#ffff00;color:#000;font-weight:bold;padding:2px 4px;border-radius:3px;">${activeWindToken}</span>`
+        );
+      }
 
-  // Highlight TEMPO/BECMG/PROB associé
-  const marker = tafRes.tafWorst?.marker;
+      // Plafond
+      if (activeCeilingToken) {
+        highlightedTaf = replaceAll(
+          highlightedTaf,
+          activeCeilingToken,
+          `<span style="background:#ff4444;color:white;font-weight:bold;padding:2px 4px;border-radius:3px;">${activeCeilingToken}</span>`
+        );
+      }
 
-  if (marker?.type === "TEMPO" && marker.period) {
-    highlightedTaf = highlightedTaf.replace(
-      `TEMPO ${marker.period}`,
-      `<span style="background:#ffd54f;color:#000;font-weight:bold;">TEMPO ${marker.period}</span>`
-    );
-  }
+      // Visibilité
+      if (activeVisibilityToken) {
+        highlightedTaf = replaceAll(
+          highlightedTaf,
+          activeVisibilityToken,
+          `<span style="background:#ff9800;color:black;font-weight:bold;padding:2px 4px;border-radius:3px;">${activeVisibilityToken}</span>`
+        );
+      }
 
-  if (marker?.type === "BECMG" && marker.period) {
-    highlightedTaf = highlightedTaf.replace(
-      `BECMG ${marker.period}`,
-      `<span style="background:#81d4fa;color:#000;font-weight:bold;">BECMG ${marker.period}</span>`
-    );
-  }
+      // Météo
+      if (activeWeatherToken) {
+        highlightedTaf = replaceAll(
+          highlightedTaf,
+          activeWeatherToken,
+          `<span style="background:#9c27b0;color:white;font-weight:bold;padding:2px 4px;border-radius:3px;">${activeWeatherToken}</span>`
+        );
+      }
 
-  if (
-    marker?.type &&
-    marker.type.startsWith("PROB") &&
-    marker.period
-  ) {
-    highlightedTaf = highlightedTaf.replace(
-      `${marker.type} ${marker.period}`,
-      `<span style="background:#ef9a9a;color:#000;font-weight:bold;">${marker.type} ${marker.period}</span>`
-    );
-  }
-}
+      const marker = tafRes.tafWorst?.marker;
 
-airportResult.innerHTML = `
-<div style="
-  background:rgba(0,0,0,0.25);
-  padding:8px;
-  border-radius:8px;
-  margin-top:8px;
-">
-  <strong>TAF BRUT</strong><br><br>
-  <div style="
-    white-space:pre-wrap;
-    font-family:monospace;
-    font-size:12px;
-    line-height:1.5;
-  ">
-    ${highlightedTaf}
-  </div>
-</div>
-`;
+      if (marker?.type === "TEMPO" && marker.period) {
+        highlightedTaf = replaceAll(
+          highlightedTaf,
+          `TEMPO ${marker.period}`,
+          `<span style="background:#ffd54f;color:#000;font-weight:bold;">TEMPO ${marker.period}</span>`
+        );
+      }
+
+      if (marker?.type === "BECMG" && marker.period) {
+        highlightedTaf = replaceAll(
+          highlightedTaf,
+          `BECMG ${marker.period}`,
+          `<span style="background:#81d4fa;color:#000;font-weight:bold;">BECMG ${marker.period}</span>`
+        );
+      }
+
+      if (marker?.type?.startsWith("PROB") && marker.period) {
+        highlightedTaf = replaceAll(
+          highlightedTaf,
+          `${marker.type} ${marker.period}`,
+          `<span style="background:#ef9a9a;color:#000;font-weight:bold;">${marker.type} ${marker.period}</span>`
+        );
+      }
+
+    } catch (highlightErr) {
+      console.warn("Highlight error:", highlightErr);
+    }
+
+    airportResult.innerHTML = `
+      <div style="background:rgba(0,0,0,0.25);padding:8px;border-radius:8px;margin-top:8px;">
+        <strong>TAF BRUT</strong><br><br>
+        <div style="white-space:pre-wrap;font-family:monospace;font-size:12px;line-height:1.5;">
+          ${highlightedTaf}
+        </div>
+      </div>
+    `;
 
   } catch (err) {
     console.error(err);
